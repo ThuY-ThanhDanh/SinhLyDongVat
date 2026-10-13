@@ -4,6 +4,8 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import lessonsData from "@/data/lessons.json";
+import quizzesData from "@/data/quizzes.json";
+import flashcardsData from "@/data/flashcards.json";
 import { Lesson } from "@/types";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { MascotBanner } from "@/components/MascotBanner";
@@ -58,6 +60,9 @@ export default function LessonDetailPage() {
 
   const sectionKeys = Object.keys(lesson.contentSections || {});
 
+  const dynamicQuizCount = quizzesData.filter((q) => q.sessionId === lesson.id).length || 50;
+  const dynamicFlashcardCount = flashcardsData.filter((f) => f.sessionId === lesson.id).length || 44;
+
   return (
     <div className="space-y-8">
       {/* Top Navigation & Breadcrumbs */}
@@ -98,7 +103,7 @@ export default function LessonDetailPage() {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="space-y-3 max-w-3xl">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="text-xs font-extrabold px-3 py-1 rounded-full bg-vet-teal text-white shadow-xs">
+              <span className="text-xs font-extrabold px-3 py-1 rounded-full bg-teal-700 text-white shadow-xs">
                 Buổi {lesson.id}
               </span>
               <span className="text-xs font-bold px-3 py-1 rounded-full bg-white text-slate-700 border border-slate-200">
@@ -132,7 +137,7 @@ export default function LessonDetailPage() {
               className={`inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl font-bold text-sm shadow-md transition-all ${
                 isCompleted
                   ? "bg-emerald-50 text-emerald-700 border border-emerald-200 cursor-default"
-                  : "bg-gradient-to-r from-vet-teal to-emerald-600 text-white hover:scale-105 active:scale-95 shadow-vet-teal/20"
+                  : "bg-teal-700 hover:bg-teal-800 text-white hover:scale-105 active:scale-95 shadow-teal-900/20"
               }`}
             >
               <CheckCircle2 className={`w-5 h-5 ${isCompleted ? "text-emerald-600" : "text-white"}`} />
@@ -145,7 +150,7 @@ export default function LessonDetailPage() {
                 className="flex-1 inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 hover:border-slate-300 text-slate-700 font-semibold text-xs shadow-xs"
               >
                 <Layers className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Flashcards ({lesson.flashcardCount || 21})</span>
+                <span>Flashcards ({dynamicFlashcardCount})</span>
               </Link>
 
               <Link
@@ -153,7 +158,7 @@ export default function LessonDetailPage() {
                 className="flex-1 inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 hover:border-slate-300 text-slate-700 font-semibold text-xs shadow-xs"
               >
                 <Award className="w-3.5 h-3.5 text-amber-500" />
-                <span>Quiz ({lesson.quizCount || 20})</span>
+                <span>Quiz ({dynamicQuizCount})</span>
               </Link>
             </div>
           </div>
@@ -176,7 +181,7 @@ export default function LessonDetailPage() {
           >
             Tất Cả Nội Dung
           </button>
-          {sectionKeys.map((secKey, idx) => {
+          {sectionKeys.map((secKey) => {
             const shortLabel = secKey.replace(/^[^\w\s]+/, "").trim();
             return (
               <button
@@ -184,7 +189,7 @@ export default function LessonDetailPage() {
                 onClick={() => setActiveSection(secKey)}
                 className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
                   activeSection === secKey
-                    ? "bg-vet-teal text-white shadow-xs"
+                    ? "bg-teal-700 text-white shadow-xs"
                     : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50"
                 }`}
               >
@@ -237,7 +242,7 @@ export default function LessonDetailPage() {
         {nextLesson ? (
           <Link
             href={`/lessons/${nextLesson.id}`}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-gradient-to-r from-vet-teal to-emerald-600 text-white font-bold text-sm shadow-md shadow-vet-teal/20 hover:scale-[1.02]"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-teal-700 hover:bg-teal-800 text-white font-bold text-sm shadow-md hover:scale-[1.02]"
           >
             <span>Buổi kế: {nextLesson.title}</span>
             <ArrowRight className="w-4 h-4" />

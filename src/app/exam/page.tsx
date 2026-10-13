@@ -20,6 +20,9 @@ import {
   Sparkles,
   HelpCircle,
   BookOpen,
+  Bot,
+  Zap,
+  Filter,
 } from "lucide-react";
 
 function ExamContent() {
@@ -32,6 +35,15 @@ function ExamContent() {
   const [examStarted, setExamStarted] = useState<boolean>(false);
   const [examFinished, setExamFinished] = useState<boolean>(false);
 
+  // Selected mode: "exam" (50 questions timed) | "practice" (instant feedback)
+  const [examMode, setExamMode] = useState<"exam" | "practice">("exam");
+  const [selectedSession, setSelectedSession] = useState<number>(sessionParam);
+
+  // AI Generator state
+  const [aiGenerating, setAiGenerating] = useState<boolean>(false);
+  const [aiAnalysisMap, setAiAnalysisMap] = useState<Record<number, string>>({});
+  const [aiAnalyzingIndex, setAiAnalyzingIndex] = useState<number | null>(null);
+
   // Selected questions for this exam
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [userAnswers, setUserAnswers] = useState<Record<number, number>>({});
@@ -42,11 +54,13 @@ function ExamContent() {
   const [timeLeft, setTimeLeft] = useState<number>(3600);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Prepare questions
-  const initializeExam = () => {
+  // Initialize questions
+  const initializeExam = (customPool?: QuizQuestion[]) => {
     let pool: QuizQuestion[] = [];
-    if (sessionParam > 0) {
-      pool = allQuizzes.filter((q) => q.sessionId === sessionParam);
+    if (customPool && customPool.length > 0) {
+      pool = customPool;
+    } else if (selectedSession > 0) {
+      pool = allQuizzes.filter((q) => q.sessionId === selectedSession);
     } else {
       // Shuffle all quizzes and pick 50
       const shuffled = [...allQuizzes].sort(() => 0.5 - Math.random());
@@ -56,15 +70,84 @@ function ExamContent() {
     setQuestions(pool);
     setUserAnswers({});
     setFlagged({});
+    setAiAnalysisMap({});
     setCurrentIndex(0);
-    setTimeLeft(sessionParam > 0 ? pool.length * 72 : 3600); // 72s per question
+    setTimeLeft(examMode === "practice" ? 999999 : (selectedSession > 0 ? pool.length * 72 : 3600));
     setExamStarted(true);
     setExamFinished(false);
   };
 
+  // AI Generator function
+  const handleGenerateAIQuiz = async () => {
+    setAiGenerating(true);
+    try {
+      const res = await fetch("/api/ai/generate-quiz", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          sessionId: selectedSession > 0 ? selectedSession : Math.floor(Math.random() * 7) + 1,
+          count: 5,
+        }),
+      });
+
+      const data = await res.json();
+      if (res.ok && Array.isArray(data.questions) && data.questions.length > 0) {
+        initializeExam(data.questions);
+      } else {
+        alert(data.error || "AI đang bận, vui lòng thử lại sau giây lát.");
+      }
+    } catch {
+      alert("Lỗi kết nối khi gọi AI sinh đề.");
+    } finally {
+      setAiGenerating(false);
+    }
+  };
+
+  // Ask AI why wrong
+  const handleAskAIWhyWrong = async (questionIndex: number) => {
+    const q = questions[questionIndex];
+    const userAns = userAnswers[questionIndex];
+    if (userAns === undefined) return;
+
+    setAiAnalyzingIndex(questionIndex);
+    try {
+      const prompt = `Phân tích câu hỏi trắc nghiệm Sinh lý Thú Y:
+Câu hỏi: "${q.question}"
+Các lựa chọn:
+A. ${q.options[0]}
+B. ${q.options[1]}
+C. ${q.options[2]}
+D. ${q.options[3]}
+Đáp án đúng là: ${String.fromCharCode(65 + q.correctIndex)} (${q.options[q.correctIndex]}).
+Sinh viên chọn sai là: ${String.fromCharCode(65 + userAns)} (${q.options[userAns]}).
+
+Hãy giải thích ngắn gọn, thân thiện (xưng Bác sĩ Dr. Paw):
+1. Tại sao đáp án của sinh viên chọn lại sai (nêu rõ bẫy đề thi)?
+2. Cơ chế sinh lý học chính xác là gì?
+3. Mẹo nhớ 1 câu để lần sau không bị lừa?`;
+
+      const res = await fetch("/api/ai/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: prompt }),
+      });
+
+      const data = await res.json();
+      if (res.ok && data.reply) {
+        setAiAnalysisMap((prev) => ({ ...prev, [questionIndex]: data.reply }));
+      } else {
+        setAiAnalysisMap((prev) => ({ ...prev, [questionIndex]: "Không thể tải phân tích từ AI lúc này." }));
+      }
+    } catch {
+      setAiAnalysisMap((prev) => ({ ...prev, [questionIndex]: "Lỗi mạng khi gọi AI." }));
+    } finally {
+      setAiAnalyzingIndex(null);
+    }
+  };
+
   // Timer countdown
   useEffect(() => {
-    if (examStarted && !examFinished && timeLeft > 0) {
+    if (examStarted && !examFinished && examMode === "exam" && timeLeft > 0) {
       timerRef.current = setInterval(() => {
         setTimeLeft((prev) => {
           if (prev <= 1) {
@@ -80,13 +163,12 @@ function ExamContent() {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [examStarted, examFinished, timeLeft]);
+  }, [examStarted, examFinished, examMode, timeLeft]);
 
   const handleFinishExam = () => {
     if (timerRef.current) clearInterval(timerRef.current);
     setExamFinished(true);
 
-    // Calculate score
     let correctCount = 0;
     questions.forEach((q, idx) => {
       if (userAnswers[idx] === q.correctIndex) {
@@ -115,7 +197,6 @@ function ExamContent() {
     return `${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
   };
 
-  // Score calculation
   const score = useMemo(() => {
     let count = 0;
     questions.forEach((q, idx) => {
@@ -126,63 +207,114 @@ function ExamContent() {
 
   const currentQ = questions[currentIndex];
 
+  // 1. SETUP / LOBBY SCREEN
   if (!examStarted) {
     return (
-      <div className="max-w-3xl mx-auto space-y-8 py-6">
-        <div className="text-center space-y-4">
-          <div className="w-20 h-20 mx-auto rounded-3xl bg-amber-100 border border-amber-200 flex items-center justify-center text-4xl shadow-sm">
+      <div className="max-w-4xl mx-auto space-y-8 py-6">
+        <div className="text-center space-y-3">
+          <div className="w-16 h-16 mx-auto rounded-3xl bg-amber-100 border border-amber-200 flex items-center justify-center text-3xl shadow-xs">
             ⏱️
           </div>
           <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            Phòng Thi Thử Trắc Nghiệm Sinh Lý Động Vật (NS470)
+            Phòng Thi & Luyện Trắc Nghiệm Sinh Lý Động Vật
           </h1>
-          <p className="text-sm sm:text-base text-slate-600 max-w-xl mx-auto leading-relaxed">
-            Mô phỏng 100% hình thức thi kết thúc học phần chính thức của Trường Đại học Cần Thơ.
+          <p className="text-sm sm:text-base text-slate-600 max-w-xl mx-auto">
+            Học phần NS470 • Kho dữ liệu <strong>350+ câu trắc nghiệm</strong> bám sát Thầy Thâm, Thầy Đồ, Thầy Nhã.
           </p>
         </div>
 
-        {/* Exam Rules Card */}
+        {/* Configuration Panel */}
         <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 space-y-6 shadow-sm">
-          <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2">
-            <Award className="w-5 h-5 text-amber-500" />
-            Quy Chế & Cấu Trúc Đề Thi
-          </h2>
+          {/* Mode Selector */}
+          <div className="space-y-2">
+            <label className="text-xs font-bold text-slate-500 uppercase tracking-wider block">
+              1. Chọn Chế Độ Làm Bài:
+            </label>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <button
+                onClick={() => setExamMode("exam")}
+                className={`p-4 rounded-2xl border-2 text-left transition-all ${
+                  examMode === "exam"
+                    ? "border-teal-700 bg-teal-50/60 shadow-xs"
+                    : "border-slate-200 hover:border-slate-300"
+                }`}
+              >
+                <div className="flex items-center gap-2 font-black text-slate-900 text-sm">
+                  <Clock className="w-4 h-4 text-teal-700" />
+                  <span>⏱️ Phòng Thi Thật (Đếm ngược 60 phút)</span>
+                </div>
+                <p className="text-xs text-slate-500 mt-1">
+                  Mô phỏng 100% phòng thi cuối kỳ ĐH Cần Thơ, nộp bài mới chấm điểm.
+                </p>
+              </button>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
-            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-100">
-              <div className="text-2xl font-black text-slate-800">
-                {sessionParam > 0 ? "20 Câu" : "50 Câu"}
-              </div>
-              <div className="text-xs text-slate-500 font-medium">Trắc nghiệm 4 lựa chọn (A, B, C, D)</div>
-            </div>
-
-            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-100">
-              <div className="text-2xl font-black text-amber-600">
-                {sessionParam > 0 ? "25 Phút" : "60 Phút"}
-              </div>
-              <div className="text-xs text-slate-500 font-medium">Đếm ngược tự động thu bài</div>
-            </div>
-
-            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-100">
-              <div className="text-2xl font-black text-emerald-600">
-                {sessionParam > 0 ? "14/20 (70%)" : "35/50 (70%)"}
-              </div>
-              <div className="text-xs text-slate-500 font-medium">Ngưỡng đạt tiêu chuẩn bác sĩ</div>
+              <button
+                onClick={() => setExamMode("practice")}
+                className={`p-4 rounded-2xl border-2 text-left transition-all ${
+                  examMode === "practice"
+                    ? "border-teal-700 bg-teal-50/60 shadow-xs"
+                    : "border-slate-200 hover:border-slate-300"
+                }`}
+              >
+                <div className="flex items-center gap-2 font-black text-slate-900 text-sm">
+                  <Zap className="w-4 h-4 text-amber-500" />
+                  <span>⚡ Luyện Nhanh (Biết đáp án & giải thích ngay)</span>
+                </div>
+                <p className="text-xs text-slate-500 mt-1">
+                  Chọn câu nào báo Đúng/Sai và hiện giải thích cơ chế ngay tại chỗ!
+                </p>
+              </button>
             </div>
           </div>
 
-          <ul className="space-y-2 text-xs sm:text-sm text-slate-600 border-t border-slate-100 pt-4 list-disc pl-5">
-            <li>Đề thi bao quát cả 3 giảng viên: ThS. Hồ Thanh Thâm, Thầy Hồ Quản Đồ, TS. Phạm Tấn Nhã.</li>
-            <li>Có giải thích chi tiết cơ chế hóa sinh - sinh lý học sau khi nộp bài.</li>
-            <li>Tích lũy điểm XP và lưu vào bảng lịch sử ôn thi.</li>
-          </ul>
+          {/* Session Filter */}
+          <div className="space-y-2 pt-2 border-t border-slate-100">
+            <label className="text-xs font-bold text-slate-500 uppercase tracking-wider block">
+              2. Chọn Phạm Vi Kiến Thức:
+            </label>
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => setSelectedSession(0)}
+                className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
+                  selectedSession === 0
+                    ? "bg-slate-900 text-white shadow-xs"
+                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                }`}
+              >
+                Tất Cả 7 Buổi ({allQuizzes.length} câu)
+              </button>
+              {[1, 2, 3, 4, 5, 6, 7].map((s) => (
+                <button
+                  key={s}
+                  onClick={() => setSelectedSession(s)}
+                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
+                    selectedSession === s
+                      ? "bg-teal-700 text-white shadow-xs"
+                      : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                  }`}
+                >
+                  Buổi {s}
+                </button>
+              ))}
+            </div>
+          </div>
 
-          <div className="pt-2 flex justify-center">
+          {/* Action Buttons */}
+          <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center gap-3 justify-center">
             <button
-              onClick={initializeExam}
-              className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-extrabold text-base shadow-lg shadow-amber-500/25 hover:scale-105 active:scale-95 transition-all"
+              onClick={() => initializeExam()}
+              className="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-teal-700 hover:bg-teal-800 text-white font-extrabold text-sm shadow-md shadow-teal-900/20 hover:scale-105 active:scale-95 transition-all"
             >
-              Bắt Đầu Làm Bài Ngay 🚀
+              Vào Làm Bài Ngay 🚀
+            </button>
+
+            <button
+              onClick={handleGenerateAIQuiz}
+              disabled={aiGenerating}
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 text-white font-extrabold text-sm shadow-md shadow-amber-500/20 hover:scale-105 active:scale-95 transition-all disabled:opacity-50"
+            >
+              <Bot className="w-4 h-4" />
+              <span>{aiGenerating ? "AI Đang Soạn Đề Mới..." : "✨ AI Tạo 5 Câu Mới Từ Bài Giảng"}</span>
             </button>
           </div>
         </div>
@@ -190,7 +322,7 @@ function ExamContent() {
     );
   }
 
-  // RESULT SCREEN
+  // 2. RESULTS SCREEN
   if (examFinished) {
     const isPassed = score >= Math.round(questions.length * 0.7);
 
@@ -200,7 +332,7 @@ function ExamContent() {
         <div
           className={`rounded-3xl p-6 sm:p-10 border text-center space-y-4 shadow-sm ${
             isPassed
-              ? "bg-gradient-to-br from-emerald-50 via-white to-vet-mint/20 border-emerald-300"
+              ? "bg-gradient-to-br from-emerald-50 via-white to-teal-50/30 border-emerald-300"
               : "bg-gradient-to-br from-rose-50 via-white to-amber-50 border-rose-300"
           }`}
         >
@@ -219,30 +351,29 @@ function ExamContent() {
 
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <button
-              onClick={initializeExam}
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-slate-900 text-white font-bold text-sm shadow-md hover:bg-slate-800 transition-all"
+              onClick={() => initializeExam()}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-teal-800 text-white font-bold text-sm shadow-md hover:bg-teal-900 transition-all"
             >
               <RotateCcw className="w-4 h-4" />
-              <span>Thi Lại Đề Mới</span>
+              <span>Thi Lại Đề Này</span>
             </button>
-            <a
-              href="#review"
+            <button
+              onClick={() => setExamStarted(false)}
               className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-white border border-slate-200 text-slate-700 font-bold text-sm hover:bg-slate-50 transition-all shadow-xs"
             >
-              <BookOpen className="w-4 h-4 text-vet-teal" />
-              <span>Xem Lại Từng Câu & Giải Thích</span>
-            </a>
+              <span>Đổi Chế Độ & Chọn Buổi Khác</span>
+            </button>
           </div>
         </div>
 
         {/* Detailed Question Review List */}
-        <div id="review" className="space-y-6">
+        <div className="space-y-6">
           <div className="flex items-center justify-between">
             <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
               <CheckCircle2 className="w-5 h-5 text-emerald-500" />
-              Chi Tiết Từng Câu Hỏi & Cơ Chế Sinh Lý
+              Xem Lại Toàn Bộ Câu Hỏi & Cơ Chế Sinh Lý
             </h2>
-            <span className="text-xs text-slate-500">Đúng: {score} | Sai: {questions.length - score}</span>
+            <span className="text-xs text-slate-500 font-medium">Đúng: {score} | Sai: {questions.length - score}</span>
           </div>
 
           <div className="space-y-6">
@@ -316,7 +447,7 @@ function ExamContent() {
                     })}
                   </div>
 
-                  {/* Explanation box */}
+                  {/* Standard Explanation */}
                   <div className="p-4 rounded-2xl bg-amber-50/70 border border-amber-200/80 text-xs sm:text-sm text-slate-800 space-y-1">
                     <div className="font-bold text-amber-900 flex items-center gap-1.5">
                       <Sparkles className="w-4 h-4 text-amber-600" />
@@ -326,6 +457,35 @@ function ExamContent() {
                       {renderTextWithMath(q.explanation)}
                     </div>
                   </div>
+
+                  {/* AI Button & Analysis Box if wrong */}
+                  {!isCorrect && (
+                    <div className="pt-2">
+                      {!aiAnalysisMap[idx] ? (
+                        <button
+                          onClick={() => handleAskAIWhyWrong(idx)}
+                          disabled={aiAnalyzingIndex === idx}
+                          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-teal-50 border border-teal-200 text-teal-800 text-xs font-bold hover:bg-teal-100 transition-colors disabled:opacity-50"
+                        >
+                          <Bot className="w-3.5 h-3.5 text-teal-700" />
+                          <span>
+                            {aiAnalyzingIndex === idx
+                              ? "Dr. Paw AI đang phân tích lỗi sai..."
+                              : "🤖 Hỏi Dr. Paw AI: Tại sao em lại sai câu này?"}
+                          </span>
+                        </button>
+                      ) : (
+                        <div className="p-4 rounded-2xl bg-teal-50/80 border border-teal-300 text-xs sm:text-sm text-teal-950 space-y-1.5">
+                          <div className="font-extrabold flex items-center gap-1.5 text-teal-900">
+                            <span>🐕 Dr. Paw AI Phân Tích Lỗi Sai:</span>
+                          </div>
+                          <div className="leading-relaxed whitespace-pre-wrap">
+                            {aiAnalysisMap[idx]}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               );
             })}
@@ -335,39 +495,47 @@ function ExamContent() {
     );
   }
 
-  // ACTIVE EXAM SCREEN
+  // 3. ACTIVE EXAM SCREEN
   return (
     <div className="max-w-5xl mx-auto space-y-6">
       {/* Top Floating Exam Header */}
       <div className="sticky top-16 z-30 bg-white/90 backdrop-blur-md border border-slate-200 p-4 rounded-3xl shadow-sm flex items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-sm">
+          <div className="w-10 h-10 rounded-2xl bg-teal-100 text-teal-800 flex items-center justify-center font-bold text-sm">
             #{currentIndex + 1}
           </div>
           <div>
-            <div className="text-xs text-slate-400 font-medium">Tiến độ câu hỏi</div>
+            <div className="text-xs text-slate-400 font-medium">
+              {examMode === "practice" ? "⚡ Chế độ Luyện Nhanh" : "⏱️ Phòng Thi Thật"}
+            </div>
             <div className="text-sm font-bold text-slate-800">
               {Object.keys(userAnswers).length} / {questions.length} đã trả lời
             </div>
           </div>
         </div>
 
-        {/* Timer */}
-        <div
-          className={`flex items-center gap-2 px-4 py-2 rounded-2xl font-mono font-black text-sm sm:text-base border ${
-            timeLeft < 300
-              ? "bg-rose-50 border-rose-200 text-rose-600 animate-pulse"
-              : "bg-slate-100 border-slate-200 text-slate-800"
-          }`}
-        >
-          <Clock className="w-4 h-4 text-amber-500" />
-          <span>{formatTime(timeLeft)}</span>
-        </div>
+        {/* Timer (only in timed exam mode) */}
+        {examMode === "exam" ? (
+          <div
+            className={`flex items-center gap-2 px-4 py-2 rounded-2xl font-mono font-black text-sm sm:text-base border ${
+              timeLeft < 300
+                ? "bg-rose-50 border-rose-200 text-rose-600 animate-pulse"
+                : "bg-slate-100 border-slate-200 text-slate-800"
+            }`}
+          >
+            <Clock className="w-4 h-4 text-amber-500" />
+            <span>{formatTime(timeLeft)}</span>
+          </div>
+        ) : (
+          <span className="text-xs px-3 py-1 rounded-full bg-amber-100 text-amber-800 font-bold">
+            ⚡ Không giới hạn giờ
+          </span>
+        )}
 
-        {/* Submit early button */}
+        {/* Submit button */}
         <button
           onClick={handleFinishExam}
-          className="px-4 py-2 rounded-2xl bg-gradient-to-r from-emerald-600 to-vet-teal text-white font-bold text-xs sm:text-sm shadow-sm hover:scale-105 active:scale-95 transition-all"
+          className="px-5 py-2.5 rounded-2xl bg-teal-700 hover:bg-teal-800 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-teal-900/20 hover:scale-105 active:scale-95 transition-all"
         >
           Nộp Bài
         </button>
@@ -378,7 +546,7 @@ function ExamContent() {
         <div className="lg:col-span-3 space-y-6 bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm">
           {/* Question Info Bar */}
           <div className="flex items-center justify-between pb-3 border-b border-slate-100 text-xs">
-            <span className="font-extrabold px-3 py-1 rounded-full bg-slate-100 text-slate-600">
+            <span className="font-extrabold px-3 py-1 rounded-full bg-slate-100 text-slate-700">
               Buổi {currentQ.sessionId} • {currentQ.badge}
             </span>
 
@@ -393,7 +561,7 @@ function ExamContent() {
               }`}
             >
               <Flag className={`w-3.5 h-3.5 ${flagged[currentIndex] ? "fill-amber-600" : ""}`} />
-              <span>{flagged[currentIndex] ? "Đã gắn cờ xem lại" : "Gắn cờ"}</span>
+              <span>{flagged[currentIndex] ? "Đã gắn cờ" : "Gắn cờ"}</span>
             </button>
           </div>
 
@@ -406,6 +574,24 @@ function ExamContent() {
           <div className="space-y-3 pt-2">
             {currentQ.options.map((option, optIdx) => {
               const isSelected = userAnswers[currentIndex] === optIdx;
+              const hasAnswered = userAnswers[currentIndex] !== undefined;
+
+              // In practice mode, show instant feedback!
+              let borderClass = "border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-700";
+              let badgeBg = "bg-slate-100 text-slate-600";
+
+              if (examMode === "practice" && hasAnswered) {
+                if (optIdx === currentQ.correctIndex) {
+                  borderClass = "border-emerald-500 bg-emerald-50/70 text-emerald-900 font-bold";
+                  badgeBg = "bg-emerald-600 text-white";
+                } else if (isSelected) {
+                  borderClass = "border-rose-500 bg-rose-50 text-rose-900";
+                  badgeBg = "bg-rose-600 text-white";
+                }
+              } else if (isSelected) {
+                borderClass = "border-teal-700 bg-teal-50/60 text-slate-900 font-semibold shadow-xs";
+                badgeBg = "bg-teal-700 text-white";
+              }
 
               return (
                 <button
@@ -413,18 +599,10 @@ function ExamContent() {
                   onClick={() =>
                     setUserAnswers((prev) => ({ ...prev, [currentIndex]: optIdx }))
                   }
-                  className={`w-full text-left p-4 rounded-2xl border-2 transition-all flex items-start gap-3.5 ${
-                    isSelected
-                      ? "border-vet-teal bg-vet-mint/10 text-slate-900 shadow-xs"
-                      : "border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-700"
-                  }`}
+                  className={`w-full text-left p-4 rounded-2xl border-2 transition-all flex items-start gap-3.5 ${borderClass}`}
                 >
                   <div
-                    className={`w-7 h-7 rounded-xl flex items-center justify-center font-bold text-xs flex-shrink-0 transition-colors ${
-                      isSelected
-                        ? "bg-vet-teal text-white"
-                        : "bg-slate-100 text-slate-600"
-                    }`}
+                    className={`w-7 h-7 rounded-xl flex items-center justify-center font-bold text-xs flex-shrink-0 transition-colors ${badgeBg}`}
                   >
                     {String.fromCharCode(65 + optIdx)}
                   </div>
@@ -435,6 +613,19 @@ function ExamContent() {
               );
             })}
           </div>
+
+          {/* Instant Feedback in Practice Mode */}
+          {examMode === "practice" && userAnswers[currentIndex] !== undefined && (
+            <div className="p-4 rounded-2xl bg-amber-50/80 border border-amber-200 space-y-1 text-xs sm:text-sm animate-in fade-in duration-150">
+              <div className="font-extrabold text-amber-900 flex items-center gap-1.5">
+                <Sparkles className="w-4 h-4 text-amber-600" />
+                <span>Giải thích đáp án ngay tại chỗ:</span>
+              </div>
+              <div className="text-slate-700 leading-relaxed">
+                {renderTextWithMath(currentQ.explanation)}
+              </div>
+            </div>
+          )}
 
           {/* Bottom Next/Prev within Question */}
           <div className="flex items-center justify-between pt-6 border-t border-slate-100">
@@ -452,7 +643,7 @@ function ExamContent() {
                 setCurrentIndex((prev) => Math.min(questions.length - 1, prev + 1))
               }
               disabled={currentIndex === questions.length - 1}
-              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-2xl bg-slate-900 hover:bg-slate-800 disabled:opacity-40 text-white text-xs font-bold transition-all"
+              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-2xl bg-teal-800 hover:bg-teal-900 disabled:opacity-40 text-white text-xs font-bold transition-all shadow-xs"
             >
               <span>Câu tiếp theo</span>
               <ArrowRight className="w-4 h-4" />
@@ -466,7 +657,7 @@ function ExamContent() {
             <h3 className="font-bold text-slate-800 text-xs uppercase tracking-wider">
               Bảng Câu Hỏi
             </h3>
-            <span className="text-xs text-slate-400 font-mono">50 câu</span>
+            <span className="text-xs text-slate-400 font-mono">{questions.length} câu</span>
           </div>
 
           <div className="grid grid-cols-5 gap-2 max-h-[380px] overflow-y-auto pr-1">
@@ -476,7 +667,7 @@ function ExamContent() {
               const isFlag = flagged[idx];
 
               let cellClass = "bg-slate-100 text-slate-600 border-transparent";
-              if (isAnswered) cellClass = "bg-vet-teal text-white border-transparent";
+              if (isAnswered) cellClass = "bg-teal-700 text-white border-transparent";
               if (isFlag) cellClass = "border-amber-400 bg-amber-50 text-amber-800 border-2";
               if (isCurrent) cellClass = "ring-2 ring-slate-900 font-black";
 
@@ -494,7 +685,7 @@ function ExamContent() {
 
           <div className="pt-3 border-t border-slate-100 space-y-1.5 text-[11px] text-slate-500">
             <div className="flex items-center gap-2">
-              <span className="w-3 h-3 rounded-md bg-vet-teal" />
+              <span className="w-3 h-3 rounded-md bg-teal-700" />
               <span>Đã trả lời</span>
             </div>
             <div className="flex items-center gap-2">
@@ -523,7 +714,7 @@ function renderTextWithMath(text: string): React.ReactNode {
           key={idx}
           math={part.slice(1, -1)}
           block={false}
-          className="mx-0.5 text-vet-teal font-serif font-bold text-sm"
+          className="mx-0.5 text-teal-700 font-serif font-bold text-sm"
         />
       );
     }
@@ -538,4 +729,3 @@ export default function ExamPage() {
     </Suspense>
   );
 }
-

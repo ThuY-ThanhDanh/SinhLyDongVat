@@ -49,15 +49,21 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Col 3 */}
-          <div className="space-y-2">
-            <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Cộng Đồng & Bản Quyền</h4>
-            <p className="text-xs text-slate-500 leading-relaxed">
-              Dành riêng cho sinh viên ngành Thú y, Chăn nuôi & Bác sĩ Thú y tương lai. Thiết kế tối ưu cho người mới bắt đầu.
-            </p>
-            <div className="pt-2 flex items-center gap-1 text-xs text-slate-500">
+          <div className="space-y-3">
+            <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Tác Giả & Phát Triển</h4>
+            <div className="p-3.5 rounded-2xl bg-amber-50/80 border border-amber-200/80 space-y-1">
+              <div className="text-xs font-extrabold text-amber-950 flex items-center gap-1.5">
+                <span>👨‍⚕️</span>
+                <span>Phát triển bởi: Huỳnh Thành Danh</span>
+              </div>
+              <p className="text-[11px] text-amber-800 leading-relaxed">
+                Sinh viên chuyên ngành Thú Y • Trường Đại học Cần Thơ (CTU).
+              </p>
+            </div>
+            <div className="flex items-center gap-1 text-xs text-slate-500">
               <span>Được xây dựng với</span>
               <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 inline" />
-              <span>và Next.js 14</span>
+              <span>dành cho sinh viên Thú Y</span>
             </div>
           </div>
         </div>

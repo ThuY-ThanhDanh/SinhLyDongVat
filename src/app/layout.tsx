@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   keywords: ["sinh lý động vật", "NS470", "đại học cần thơ", "thú y", "dr paw", "bác sĩ thú y"],
 };
 
+import { AIChatWidget } from "@/components/AIChatWidget";
+
 export default function RootLayout({
   children,
 }: {
@@ -31,6 +33,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <AIChatWidget />
       </body>
     </html>
   );

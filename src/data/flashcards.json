@@ -1174,5 +1174,1269 @@
     "front": "DCAD (*Dietary Cation-Anion Difference*)",
     "back": "Hiệu số Cation - Anion trong khẩu phần: $[(Na^+ + K^+) - (Cl^- + S^{2-})]$ tính bằng mEq/kg DM.",
     "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc-adv-1791881259802-0",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Áp suất lọc hiệu dụng (Pl) tại cầu thận bình thường là bao nhiêu?",
+    "back": "Khoảng 10 – 15 mmHg. Công thức: Pl = Ph - (Pk + Pn) = 60 - (30 + 15) = 15 mmHg.",
+    "category": "Chỉ số vàng"
+  },
+  {
+    "id": "fc-adv-1791881259802-1",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Hình thái thận bò có gì đặc biệt so với các loài khác?",
+    "back": "Thận bò có 15 – 25 thùy riêng biệt, bề mặt có nhiều rãnh sâu chứa mỡ liên kết.",
+    "category": "Dị biệt loài"
+  },
+  {
+    "id": "fc-adv-1791881259802-2",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "pH nước tiểu loài ăn cỏ (Bò, Ngựa) và loài ăn thịt (Chó, Mèo)?",
+    "back": "Loài ăn cỏ: Kiềm (pH 7.4 – 8.4); Loài ăn thịt: Acid (pH 5.5 – 7.0).",
+    "category": "Dị biệt loài"
+  },
+  {
+    "id": "fc-adv-1791881259802-3",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Podocytes (Tế bào có chân) nằm ở đâu và có vai trò gì?",
+    "back": "Là tế bào biểu mô lá tạng bao Bowman, có các tua chân đan cài tạo khe lọc 7-9 nm chặn protein.",
+    "category": "Thuật ngữ"
+  },
+  {
+    "id": "fc-adv-1791881259802-4",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Đẳng trương niệu (Isosthenuria - USG 1.008-1.012) chỉ điểm bệnh gì?",
+    "back": "Chỉ điểm suy thận mạn tính tiến triển: ống thận mất hoàn toàn khả năng cô đặc và pha loãng.",
+    "category": "Bệnh lý"
+  },
+  {
+    "id": "fc-adv-1791881259802-5",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Hồng cầu và Tiểu cầu của Lớp Chim (Gia cầm) khác thú có vú ở điểm nào?",
+    "back": "Gia cầm: Cả hồng cầu và tiểu cầu đều hình bầu dục và CÓ NHÂN. Thú có vú: Không có nhân.",
+    "category": "Dị biệt loài"
+  },
+  {
+    "id": "fc-adv-1791881259802-6",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Huyết thanh (Serum) khác Huyết tương (Plasma) như thế nào?",
+    "back": "Huyết thanh = Huyết tương trừ đi Fibrinogen (các yếu tố đông máu đã bị tiêu thụ sau khi máu đông).",
+    "category": "Thuật ngữ"
+  },
+  {
+    "id": "fc-adv-1791881259802-7",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Khối lượng máu toàn phần chiếm bao nhiêu % thể trọng?",
+    "back": "Chiếm khoảng 7 – 9% khối lượng cơ thể (trung bình ~8% thể trọng).",
+    "category": "Chỉ số vàng"
+  },
+  {
+    "id": "fc-adv-1791881259802-8",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Tại sao truyền nhầm máu A cho mèo nhóm B lại tử vong ngay lần đầu?",
+    "back": "Vì huyết tương mèo nhóm B chứa nồng độ kháng thể tự nhiên Anti-A cực cao, gây sốc tán huyết tức thì.",
+    "category": "Bệnh lý"
+  },
+  {
+    "id": "fc-adv-1791881259802-9",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Ion Ca2+ là yếu tố đông máu số mấy?",
+    "back": "Là Yếu tố IV trong chuỗi 13 yếu tố đông máu, đóng vai trò đồng yếu tố kích hoạt Prothrombin.",
+    "category": "Thuật ngữ"
+  },
+  {
+    "id": "fc-adv-1791881259802-10",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "front": "Áp suất khoang màng phổi trong thì hít vào bình thường là bao nhiêu?",
+    "back": "Khoảng -2 đến -6 mmHg (luôn âm hơn áp suất khí quyển để hút nở phổi).",
+    "category": "Chỉ số vàng"
+  },
+  {
+    "id": "fc-adv-1791881259802-11",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "front": "Chất hoạt diện Surfactant do tế bào nào tiết và có chức năng gì?",
+    "back": "Do tế bào phế nang type II tiết, làm giảm sức căng bề mặt chất dịch phế nang để chống xẹp phổi.",
+    "category": "Thuật ngữ"
+  },
+  {
+    "id": "fc-adv-1791881259802-12",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "front": "Gia cầm có bao nhiêu túi khí (Air sacs) và cơ chế hô hấp thế nào?",
+    "back": "Có 9 túi khí, luồng khí di chuyển một chiều qua các ống vi phế quản parabronchi qua 2 chu kỳ thở.",
+    "category": "Dị biệt loài"
+  },
+  {
+    "id": "fc-adv-1791881259802-13",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "front": "Hiệu ứng Bohr làm lệch đường cong HbO2 sang phải trong trường hợp nào?",
+    "back": "Khi tăng CO2, tăng H+ (giảm pH), tăng nhiệt độ tại mô $\\rightarrow$ Hb giảm ái lực để nhả O2 cho mô.",
+    "category": "Quy luật"
+  },
+  {
+    "id": "fc-adv-1791881259802-14",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "front": "Thần chú hoạt động của bơm Na+/K+-ATPase?",
+    "back": "'3 Na Ra - 2 K Vào': Bơm 3 ion Na+ ra ngoài dịch kẽ và 2 ion K+ vào trong tế bào, tiêu tốn 1 ATP.",
+    "category": "Quy luật"
+  },
+  {
+    "id": "fc-adv-1791881259802-15",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "front": "Ion nào kích hoạt giải phóng Acetylcholine tại chùy synapse?",
+    "back": "Ion Ca2+: Điện thế hoạt động mở kênh Ca2+ nhạy cảm điện thế làm bóng synapse hòa màng xuất bào.",
+    "category": "Thuật ngữ"
+  },
+  {
+    "id": "fc-adv-1791881259802-16",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "front": "Trong cơ chế co cơ vân, Ca2+ gắn vào phân tử nào?",
+    "back": "Gắn vào Troponin C, làm xoay lệch Tropomyosin để bộc lộ vị trí gắn của Actin với Myosin.",
+    "category": "Cơ chế"
+  },
+  {
+    "id": "fc-adv-1791881259802-17",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "front": "Tại sao sau khi chết cơ thể con vật bị co cứng tử thi (Rigor mortis)?",
+    "back": "Vì tế bào cạn kiệt ATP, không có ATP để tháo gỡ đầu Myosin khỏi sợi Actin $\\rightarrow$ dính chặt vĩnh viễn.",
+    "category": "Bệnh lý"
+  },
+  {
+    "id": "fc-adv-1791881259802-18",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "front": "Thứ tự và dung tích 4 ngăn dạ dày gia súc nhai lại?",
+    "back": "Dạ cỏ (Rumen ~80%) $\\rightarrow$ Dạ tổ ong (Reticulum ~5%) $\\rightarrow$ Dạ lá sách (Omasum ~7-8%) $\\rightarrow$ Dạ múi khế (Abomasum ~7-8%).",
+    "category": "Giải phẫu"
+  },
+  {
+    "id": "fc-adv-1791881259802-19",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "front": "3 Acid béo bay hơi (VFA) dạ cỏ và vai trò chính của từng loại?",
+    "back": "Acetate (60-70% $\\rightarrow$ mỡ sữa), Propionate (15-20% $\\rightarrow$ Glucose), Butyrate (10-15% $\\rightarrow$ dinh dưỡng vách dạ cỏ).",
+    "category": "Chỉ số vàng"
+  },
+  {
+    "id": "fc-adv-1791881259802-20",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "front": "Ngăn nào trong 4 túi dạ dày của bò mới là dạ dày thực sự tiết dịch vị?",
+    "back": "Dạ múi khế (Abomasum): duy nhất có niêm mạc tiết HCl và Pepsinogen.",
+    "category": "Giải phẫu"
+  },
+  {
+    "id": "fc-adv-1791881259802-21",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "front": "Chu trình tái chế Ure ở bò diễn ra như thế nào?",
+    "back": "Ure trong máu qua nước bọt và vách dạ cỏ vào dạ cỏ; vi sinh vật dùng enzym Urease biến thành NH3 tổng hợp đạm.",
+    "category": "Cơ chế"
+  },
+  {
+    "id": "fc-adv-1791881259802-22",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "front": "Thùy sau tuyến yên thực chất tiết ra những hormone nào?",
+    "back": "ADH (Vasopressin) và Oxytocin. Do Vùng dưới đồi tổng hợp, thùy sau chỉ là nơi dự trữ và phóng thích.",
+    "category": "Giải phẫu"
+  },
+  {
+    "id": "fc-adv-1791881259802-23",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "front": "Tác dụng đối kháng của PTH và Calcitonin trên nồng độ Canxi máu?",
+    "back": "PTH (tuyến cận giáp) làm TĂNG Canxi máu; Calcitonin (tế bào C tuyến giáp) làm GIẢM Canxi máu.",
+    "category": "Cơ chế"
+  },
+  {
+    "id": "fc-adv-1791881259802-24",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "front": "Insulin và Glucagon do tế bào nào của đảo tụy tiết ra?",
+    "back": "Tế bào Beta tiết Insulin (hạ đường huyết); Tế bào Alpha tiết Glucagon (tăng đường huyết).",
+    "category": "Cơ chế"
+  },
+  {
+    "id": "fc-adv-1791881259802-25",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "front": "Thời điểm rụng trứng ở Bò (Bovine) diễn ra vào lúc nào?",
+    "back": "Khoảng 10 – 12 giờ SAU KHI DỨT ĐỘNG DỤC (sau khi bò kết thúc phản xạ đứng yên chịu đực).",
+    "category": "Bẫy đề thi"
+  },
+  {
+    "id": "fc-adv-1791881259802-26",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "front": "Hormone nào từ tử cung gây thoái hóa hoàng thể nếu không có thai?",
+    "back": "Prostaglandin F2alpha (PGF2a): do nội mạc tử cung tiết ra làm tiêu biến hoàng thể.",
+    "category": "Cơ chế"
+  },
+  {
+    "id": "fc-adv-1791881259802-27",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "front": "Chu kỳ động dục trung bình của Bò và Heo là bao nhiêu ngày?",
+    "back": "Cả Bò và Heo đều có chu kỳ động dục trung bình là 21 ngày (dao động 18 - 24 ngày).",
+    "category": "Chỉ số vàng"
+  },
+  {
+    "id": "fc-adv-1791881259802-28",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "front": "Phân biệt vai trò của Prolactin và Oxytocin trong sinh lý sữa?",
+    "back": "Prolactin kích thích nang tuyến TỔNG HỢP SỮA; Oxytocin gây co bóp tế bào cơ biểu mô TỐNG XUẤT SỮA (xuống sữa).",
+    "category": "Cơ chế"
+  },
+  {
+    "id": "fc-full-1791881316059-1",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Phương pháp Cystocentesis trong thu thập mẫu nước tiểu thú y được tiến hành bằng cách nào?",
+    "back": "Chọc kim vô trùng xuyên qua thành bụng vào trực tiếp lòng bàng quang — Cơ chế: Chọc hút bàng quang (Cystocentesis) là kỹ thuật đâm kim xuyên thành bụng vào bàng quang dưới hướng dẫn siêu âm hoặc định vị bằng tay để thu mẫu tinh khiết tuyệt đối phục vụ cấy vi khuẩn."
+  },
+  {
+    "id": "fc-full-1791881316059-2",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Dị tật bẩm sinh 'Thận móng ngựa' (Horseshoe Kidney) hình thành do cơ chế nào?",
+    "back": "Hai quả thận bị dính liền nhau ở một cực tạo thành hình chữ U vắt qua cột sống — Cơ chế: Dị tật thận móng ngựa xảy ra khi hai mầm thận dính nhau ở cực dưới trong thời kỳ phôi thai, cản trở sự di chuyển lên trên và làm tăng nguy cơ ứ đọng nước tiểu, nhiễm trùng."
+  },
+  {
+    "id": "fc-full-1791881316059-3",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Nguyên nhân chính dẫn đến hình thành sỏi Struvite (Magnesium Ammonium Phosphate) ở đường tiết niệu mèo là:",
+    "back": "Nước tiểu kiềm hóa kéo dài và khẩu phần ăn dư thừa Magie, Phosphat — Cơ chế: Tinh thể Struvite chỉ kết tủa và tạo sỏi trong môi trường nước tiểu có tính kiềm (pH > 7.0) kết hợp với khẩu phần giàu khoáng Magie và Phosphat."
+  },
+  {
+    "id": "fc-full-1791881316059-4",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Chất nào sau đây được sử dụng làm chất chuẩn lý tưởng nhất để đo mức lọc cầu thận (GFR) vì được lọc tự do và hoàn toàn không bị tái hấp thu hay bài tiết?",
+    "back": "Inulin — Cơ chế: Inulin là polysaccharide ngoại sinh được lọc tự do qua màng lọc cầu thận, hoàn toàn không bị ống thận tái hấp thu cũng như không bị bài tiết thêm, do đó độ thanh thải Inulin bằng chính xác GFR."
+  },
+  {
+    "id": "fc-full-1791881316059-5",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Tại sao heo con sơ sinh nuôi nhốt trên nền xi măng bắt buộc phải được tiêm bổ sung Dextran Sắt lúc 3 ngày tuổi?",
+    "back": "Sữa heo mẹ rất nghèo chất sắt và lượng sắt dự trữ trong gan heo con sơ sinh chỉ đủ dùng 3 ngày — Cơ chế: Heo con sơ sinh lớn rất nhanh nhưng sữa mẹ chỉ cung cấp khoảng 1 mg sắt/ngày (nhu cầu cần 7-10 mg), nếu không tiêm sắt 200mg lúc 3 ngày tuổi heo con sẽ bị thiếu máu nhược sắc nặng."
+  },
+  {
+    "id": "fc-full-1791881316059-6",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Khi con vật bị nhiễm trùng vi khuẩn cấp tính sinh mủ, loại tế bào bạch cầu nào sẽ tăng sinh ồ ạt trong máu đầu tiên?",
+    "back": "Bạch cầu trung tính (Neutrophils) — Cơ chế: Bạch cầu trung tính là hàng rào phòng ngự đầu tiên thực bào vi khuẩn gây bệnh, tăng nhanh và chuyển trái (tăng bạch cầu đũa non) khi có nhiễm trùng sinh mủ."
+  },
+  {
+    "id": "fc-full-1791881316059-7",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Hệ nhóm máu chính ở loài Chó được ký hiệu là gì và có đặc điểm lâm sàng nào?",
+    "back": "Hệ DEA (Dog Erythrocyte Antigen); không có kháng thể tự nhiên từ trước nên lần truyền đầu tiên tương đối an toàn — Cơ chế: Hệ DEA ở chó (đặc biệt DEA 1.1) không có kháng thể tự nhiên sẵn có, do đó lần truyền máu đầu tiên thường an toàn, nhưng sẽ kích hoạt cơ thể sinh kháng thể sau 1-2 tuần."
+  },
+  {
+    "id": "fc-full-1791881316059-8",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Gan tổng hợp phần lớn các yếu tố đông máu phụ thuộc vào vitamin nào?",
+    "back": "Vitamin K — Cơ chế: Vitamin K là đồng yếu tố cần thiết cho enzyme carboxylase ở gan để hoạt hóa các yếu tố đông máu II (Prothrombin), VII, IX và X."
+  },
+  {
+    "id": "fc-full-1791881316059-9",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Tại sao khi gia cầm bị sốc nhiệt vào mùa hè nóng nực thở hổn hển (panting) lại dẫn đến vỏ trứng gà bị mỏng và dễ vỡ?",
+    "back": "Thở hổn hển làm mất quá nhiều CO2 gây kiềm hô hấp, làm giảm nồng độ ion HCO3- cần thiết để tạo vỏ đá vôi CaCO3 — Cơ chế: Thở gấp thải CO2 quá mức làm máu gà rơi vào tình trạng kiềm hô hấp, giảm ion HCO3- trong máu, khiến tuyến tạo vỏ trứng ở ống dẫn trứng không đủ nguyên liệu kết tủa CaCO3."
+  },
+  {
+    "id": "fc-full-1791881316059-10",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Khí cặn (Residual Volume - RV) trong phổi là lượng khí:",
+    "back": "Còn lại trong phổi sau khi đã thở ra hết sức, không bao giờ tống hết ra ngoài được — Cơ chế: Khí cặn là lượng khí luôn nằm lại trong phế nang ngay cả khi thở ra tối đa, giúp phổi không bị xẹp hoàn toàn và tiếp tục trao đổi khí giữa các nhịp thở."
+  },
+  {
+    "id": "fc-full-1791881316059-11",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Trung tâm điều hòa nhịp hô hấp tự động nằm ở phần nào của não bộ?",
+    "back": "Hành não và Cầu não (Thân não) — Cơ chế: Trung tâm hô hấp gồm nhóm tế bào thần kinh hô hấp lưng và bụng nằm tại Hành tủy (Medulla) và Cầu não (Pons), tự động phát xung điều hòa nhịp hít vào thở ra."
+  },
+  {
+    "id": "fc-full-1791881316059-12",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Độc tố uốn ván (Tetanus toxin) gây co giật co cứng cơ liên tục ở gia súc do cơ chế nào?",
+    "back": "Ức chế giải phóng chất dẫn truyền thần kinh ức chế (GABA và Glycine) tại tủy sống — Cơ chế: Độc tố Tetanospasmin ngăn chặn sự giải phóng các chất dẫn truyền ức chế GABA và Glycine từ các nơron trung gian tủy sống, khiến nơron vận động kích thích liên tục không kiểm soát gây co cứng."
+  },
+  {
+    "id": "fc-full-1791881316059-13",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Sự khác biệt căn bản giữa cơ trơn và cơ vân trong cơ chế co cơ là cơ trơn không chứa phân tử nào?",
+    "back": "Troponin (thay thế bằng Calmodulin) — Cơ chế: Cơ trơn hoàn toàn không có phức hợp Troponin. Thay vào đó, ion Ca2+ gắn với protein Calmodulin trong bào tương để hoạt hóa enzym Myosin Light Chain Kinase (MLCK)."
+  },
+  {
+    "id": "fc-full-1791881316059-14",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Sợi thần kinh có bao Myelin dẫn truyền xung thần kinh nhanh hơn sợi không có bao Myelin gấp nhiều lần nhờ cơ chế:",
+    "back": "Dẫn truyền nhảy cóc (Saltatory conduction) qua các eo Ranvier — Cơ chế: Bao Myelin là lớp cách điện hoàn hảo, điện thế hoạt động chỉ phát sinh tại các khoảng gián đoạn (eo Ranvier), tạo nên hiện tượng nhảy vọt từ eo này sang eo kế tiếp rất nhanh."
+  },
+  {
+    "id": "fc-full-1791881316059-15",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Bệnh ngoại vật đâm dạ tổ ong (Traumatic reticuloperitonitis) ở bò thường diễn biến nguy kịch sang tim do giải phẫu nào?",
+    "back": "Dạ tổ ong nằm ở vị trí thấp nhất và áp sát cơ hoành, phía trước cơ hoành là màng ngoài tim — Cơ chế: Dạ tổ ong nằm ngay sát cơ hoành. Khi bò co bóp dạ tổ ong, đinh sắt nhọn dễ đâm thủng vách dạ tổ ong, xuyên qua cơ hoành vào bao tim gây viêm màng tim chèn ép tim (viêm bao tim do ngoại vật)."
+  },
+  {
+    "id": "fc-full-1791881316060-16",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Tại sao loài Ngựa (động vật dạ dày đơn ăn cỏ) rất dễ bị cơn đau bụng ngoại khoa (Colic) và xoắn ruột tử vong?",
+    "back": "Dạ dày nhỏ không thể ợ hơi hay nôn mửa, trong khi manh tràng và kết tràng khổng lồ dễ chướng hơi và xoắn vặn — Cơ chế: Ngựa có cơ thắt tâm vị dạ dày đóng rất chặt ngăn cản phản xạ nôn và ợ hơi. Khi thức ăn lên men sinh hơi ở manh tràng lớn, áp lực tăng cao dễ dẫn đến chướng hơi ruột, lồng ruột, xoắn ruột cấp tính."
+  },
+  {
+    "id": "fc-full-1791881316060-17",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Nước bọt của bò tiết ra hàng ngày (lên tới 100-150 lít/ngày) chứa hàm lượng cao ion nào giúp đệm ổn định pH dạ cỏ?",
+    "back": "Bicarbonate (HCO3-) và Phosphate (HPO4 2-) — Cơ chế: Nước bọt bò là dung dịch đệm kiềm dồi dào chứa NaHCO3 và Na2HPO4, liên tục trung hòa lượng lớn các acid béo bay hơi (VFA) sinh ra trong quá trình vi sinh vật lên men dạ cỏ."
+  },
+  {
+    "id": "fc-full-1791881316060-18",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Bệnh sốt sữa (Milk Fever hay Hạ canxi huyết cấp tính) ở bò sữa cao sản sau khi sinh lứa 3-4 biểu hiện triệu chứng điển hình nào?",
+    "back": "Bò nằm bẹp không đứng dậy được, cổ ngoẹo hình chữ S, hạ thân nhiệt và liệt cơ — Cơ chế: Khi bắt đầu tiết sữa ồ ạt, lượng lớn Canxi bị rút vào sữa mẹ khiến canxi máu tụt đột ngột. Cơ thể thiếu Ca2+ để dẫn truyền thần kinh cơ gây liệt cơ, bò nằm liệt bẹp, cổ ngoẹo gập chữ S."
+  },
+  {
+    "id": "fc-full-1791881316060-19",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Hormone T3 (Triiodothyronine) và T4 (Thyroxine) do tuyến giáp tiết ra có tác dụng sinh học căn bản nào?",
+    "back": "Tăng tốc độ chuyển hóa cơ bản, tăng sinh nhiệt và phát triển não bộ — Cơ chế: Hormone tuyến giáp kích thích hoạt động chuyển hóa ở hầu hết các mô trong cơ thể, tăng tiêu thụ O2, sinh nhiệt và điều hòa sinh trưởng."
+  },
+  {
+    "id": "fc-full-1791881316060-20",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Vỏ thượng thận được chia làm 3 lớp từ ngoài vào trong: Lớp cung, Lớp bó, Lớp lưới tương ứng tiết các hormone:",
+    "back": "Mineralocorticoid (Aldosterone), Glucocorticoid (Cortisol), Androgen — Cơ chế: Lớp cung (Zona glomerulosa) tiết Aldosterone; Lớp bó (Zona fasciculata) tiết Cortisol chuyển hóa đường; Lớp lưới (Zona reticularis) tiết hormone sinh dục Androgen."
+  },
+  {
+    "id": "fc-full-1791881316060-21",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Quy tắc phối giống nhân tạo 'Sáng - Chiều' ở bò cái được áp dụng dựa trên cơ sở sinh lý nào?",
+    "back": "Bò rụng trứng 10-12 giờ sau khi dứt động dục, phối vào cuối giai đoạn đứng yên chịu đực để tinh trùng gặp trứng đúng thời điểm thụ tinh tốt nhất — Cơ chế: Trứng bò rụng sau khi kết thúc chịu đực 10-12 giờ. Áp dụng quy tắc: Phát hiện bò chịu đực buổi sáng thì phối buổi chiều; phát hiện chịu đực buổi chiều thì phối sáng hôm sau để tinh trùng hoàn tất quá trình thụ tinh."
+  },
+  {
+    "id": "fc-full-1791881316060-22",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Bánh nhau ở loài Bò và Cừu thuộc loại cấu trúc giải phẫu nào?",
+    "back": "Nhau núm (Cotyledonary placenta với các caruncle kết hợp cotyledon tạo placentome) — Cơ chế: Bò và loài nhai lại có nhau núm (Cotyledonary): nhung mao màng đệm tập trung thành từng chùm (núm nhau - cotyledon) gắn vào các núm thịt (caruncle) của nội mạc tử cung mẹ."
+  },
+  {
+    "id": "fc-full-1791881316060-23",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Cận lâm sàng & Bệnh lý",
+    "front": "Giai đoạn hoàng thể (Luteal phase) trong chu kỳ động dục được đặc trưng bởi nồng độ cao của hormone nào?",
+    "back": "Progesterone — Cơ chế: Sau khi rụng trứng, hoàng thể hình thành và tiết lượng lớn Progesterone để chuẩn bị niêm mạc tử cung đón phôi làm tổ và ức chế các đợt rụng trứng mới."
+  },
+  {
+    "id": "fc-gen-1791881316060-24",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao loài Ngựa (động vật dạ dày đơn ăn cỏ) rất dễ bị cơn đau bụng ngoại khoa (Colic) và xoắn ruột tử vong?",
+    "back": "Đáp án: Dạ dày nhỏ không thể ợ hơi hay nôn mửa, trong khi manh tràng và kết tràng khổng lồ dễ chướng hơi và xoắn vặn (Giải thích: Ngựa có cơ thắt tâm vị dạ dày đóng rất chặt ngăn cản phản xạ nôn và ợ hơi. Khi thức ăn lên men sinh hơi ở manh tràng lớn, áp lực tăng cao dễ dẫn đến chướng hơi ruột, lồng ruột, xoắn ruột cấp tính.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-25",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nước bọt của bò tiết ra hàng ngày (lên tới 100-150 lít/ngày) chứa hàm lượng cao ion nào giúp đệm ổn định pH dạ cỏ?",
+    "back": "Đáp án: Bicarbonate (HCO3-) và Phosphate (HPO4 2-) (Giải thích: Nước bọt bò là dung dịch đệm kiềm dồi dào chứa NaHCO3 và Na2HPO4, liên tục trung hòa lượng lớn các acid béo bay hơi (VFA) sinh ra trong quá trình vi sinh vật lên men dạ cỏ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-26",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bệnh sốt sữa (Milk Fever hay Hạ canxi huyết cấp tính) ở bò sữa cao sản sau khi sinh lứa 3-4 biểu hiện triệu chứng điển hình nào?",
+    "back": "Đáp án: Bò nằm bẹp không đứng dậy được, cổ ngoẹo hình chữ S, hạ thân nhiệt và liệt cơ (Giải thích: Khi bắt đầu tiết sữa ồ ạt, lượng lớn Canxi bị rút vào sữa mẹ khiến canxi máu tụt đột ngột. Cơ thể thiếu Ca2+ để dẫn truyền thần kinh cơ gây liệt cơ, bò nằm liệt bẹp, cổ ngoẹo gập chữ S.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-27",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Hormone T3 (Triiodothyronine) và T4 (Thyroxine) do tuyến giáp tiết ra có tác dụng sinh học căn bản nào?",
+    "back": "Đáp án: Tăng tốc độ chuyển hóa cơ bản, tăng sinh nhiệt và phát triển não bộ (Giải thích: Hormone tuyến giáp kích thích hoạt động chuyển hóa ở hầu hết các mô trong cơ thể, tăng tiêu thụ O2, sinh nhiệt và điều hòa sinh trưởng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-28",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Vỏ thượng thận được chia làm 3 lớp từ ngoài vào trong: Lớp cung, Lớp bó, Lớp lưới tương ứng tiết các hormone:",
+    "back": "Đáp án: Mineralocorticoid (Aldosterone), Glucocorticoid (Cortisol), Androgen (Giải thích: Lớp cung (Zona glomerulosa) tiết Aldosterone; Lớp bó (Zona fasciculata) tiết Cortisol chuyển hóa đường; Lớp lưới (Zona reticularis) tiết hormone sinh dục Androgen.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-29",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Quy tắc phối giống nhân tạo 'Sáng - Chiều' ở bò cái được áp dụng dựa trên cơ sở sinh lý nào?",
+    "back": "Đáp án: Bò rụng trứng 10-12 giờ sau khi dứt động dục, phối vào cuối giai đoạn đứng yên chịu đực để tinh trùng gặp trứng đúng thời điểm thụ tinh tốt nhất (Giải thích: Trứng bò rụng sau khi kết thúc chịu đực 10-12 giờ. Áp dụng quy tắc: Phát hiện bò chịu đực buổi sáng thì phối buổi chiều; phát hiện chịu đực buổi chiều thì phối sáng hôm sau để tinh trùng hoàn tất quá trình thụ tinh.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-30",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bánh nhau ở loài Bò và Cừu thuộc loại cấu trúc giải phẫu nào?",
+    "back": "Đáp án: Nhau núm (Cotyledonary placenta với các caruncle kết hợp cotyledon tạo placentome) (Giải thích: Bò và loài nhai lại có nhau núm (Cotyledonary): nhung mao màng đệm tập trung thành từng chùm (núm nhau - cotyledon) gắn vào các núm thịt (caruncle) của nội mạc tử cung mẹ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-31",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Giai đoạn hoàng thể (Luteal phase) trong chu kỳ động dục được đặc trưng bởi nồng độ cao của hormone nào?",
+    "back": "Đáp án: Progesterone (Giải thích: Sau khi rụng trứng, hoàng thể hình thành và tiết lượng lớn Progesterone để chuẩn bị niêm mạc tử cung đón phôi làm tổ và ức chế các đợt rụng trứng mới.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-32",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Phương pháp Cystocentesis trong thu thập mẫu nước tiểu thú y được tiến hành bằng cách nào?",
+    "back": "Đáp án: Chọc kim vô trùng xuyên qua thành bụng vào trực tiếp lòng bàng quang (Giải thích: Chọc hút bàng quang (Cystocentesis) là kỹ thuật đâm kim xuyên thành bụng vào bàng quang dưới hướng dẫn siêu âm hoặc định vị bằng tay để thu mẫu tinh khiết tuyệt đối phục vụ cấy vi khuẩn.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-33",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Dị tật bẩm sinh 'Thận móng ngựa' (Horseshoe Kidney) hình thành do cơ chế nào?",
+    "back": "Đáp án: Hai quả thận bị dính liền nhau ở một cực tạo thành hình chữ U vắt qua cột sống (Giải thích: Dị tật thận móng ngựa xảy ra khi hai mầm thận dính nhau ở cực dưới trong thời kỳ phôi thai, cản trở sự di chuyển lên trên và làm tăng nguy cơ ứ đọng nước tiểu, nhiễm trùng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-34",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nguyên nhân chính dẫn đến hình thành sỏi Struvite (Magnesium Ammonium Phosphate) ở đường tiết niệu mèo là:",
+    "back": "Đáp án: Nước tiểu kiềm hóa kéo dài và khẩu phần ăn dư thừa Magie, Phosphat (Giải thích: Tinh thể Struvite chỉ kết tủa và tạo sỏi trong môi trường nước tiểu có tính kiềm (pH > 7.0) kết hợp với khẩu phần giàu khoáng Magie và Phosphat.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-35",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Chất nào sau đây được sử dụng làm chất chuẩn lý tưởng nhất để đo mức lọc cầu thận (GFR) vì được lọc tự do và hoàn toàn không bị tái hấp thu hay bài tiết?",
+    "back": "Đáp án: Inulin (Giải thích: Inulin là polysaccharide ngoại sinh được lọc tự do qua màng lọc cầu thận, hoàn toàn không bị ống thận tái hấp thu cũng như không bị bài tiết thêm, do đó độ thanh thải Inulin bằng chính xác GFR.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-36",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao heo con sơ sinh nuôi nhốt trên nền xi măng bắt buộc phải được tiêm bổ sung Dextran Sắt lúc 3 ngày tuổi?",
+    "back": "Đáp án: Sữa heo mẹ rất nghèo chất sắt và lượng sắt dự trữ trong gan heo con sơ sinh chỉ đủ dùng 3 ngày (Giải thích: Heo con sơ sinh lớn rất nhanh nhưng sữa mẹ chỉ cung cấp khoảng 1 mg sắt/ngày (nhu cầu cần 7-10 mg), nếu không tiêm sắt 200mg lúc 3 ngày tuổi heo con sẽ bị thiếu máu nhược sắc nặng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-37",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Khi con vật bị nhiễm trùng vi khuẩn cấp tính sinh mủ, loại tế bào bạch cầu nào sẽ tăng sinh ồ ạt trong máu đầu tiên?",
+    "back": "Đáp án: Bạch cầu trung tính (Neutrophils) (Giải thích: Bạch cầu trung tính là hàng rào phòng ngự đầu tiên thực bào vi khuẩn gây bệnh, tăng nhanh và chuyển trái (tăng bạch cầu đũa non) khi có nhiễm trùng sinh mủ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-38",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Hệ nhóm máu chính ở loài Chó được ký hiệu là gì và có đặc điểm lâm sàng nào?",
+    "back": "Đáp án: Hệ DEA (Dog Erythrocyte Antigen); không có kháng thể tự nhiên từ trước nên lần truyền đầu tiên tương đối an toàn (Giải thích: Hệ DEA ở chó (đặc biệt DEA 1.1) không có kháng thể tự nhiên sẵn có, do đó lần truyền máu đầu tiên thường an toàn, nhưng sẽ kích hoạt cơ thể sinh kháng thể sau 1-2 tuần.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-39",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Gan tổng hợp phần lớn các yếu tố đông máu phụ thuộc vào vitamin nào?",
+    "back": "Đáp án: Vitamin K (Giải thích: Vitamin K là đồng yếu tố cần thiết cho enzyme carboxylase ở gan để hoạt hóa các yếu tố đông máu II (Prothrombin), VII, IX và X.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-40",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao khi gia cầm bị sốc nhiệt vào mùa hè nóng nực thở hổn hển (panting) lại dẫn đến vỏ trứng gà bị mỏng và dễ vỡ?",
+    "back": "Đáp án: Thở hổn hển làm mất quá nhiều CO2 gây kiềm hô hấp, làm giảm nồng độ ion HCO3- cần thiết để tạo vỏ đá vôi CaCO3 (Giải thích: Thở gấp thải CO2 quá mức làm máu gà rơi vào tình trạng kiềm hô hấp, giảm ion HCO3- trong máu, khiến tuyến tạo vỏ trứng ở ống dẫn trứng không đủ nguyên liệu kết tủa CaCO3.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-41",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Khí cặn (Residual Volume - RV) trong phổi là lượng khí:",
+    "back": "Đáp án: Còn lại trong phổi sau khi đã thở ra hết sức, không bao giờ tống hết ra ngoài được (Giải thích: Khí cặn là lượng khí luôn nằm lại trong phế nang ngay cả khi thở ra tối đa, giúp phổi không bị xẹp hoàn toàn và tiếp tục trao đổi khí giữa các nhịp thở.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-42",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Trung tâm điều hòa nhịp hô hấp tự động nằm ở phần nào của não bộ?",
+    "back": "Đáp án: Hành não và Cầu não (Thân não) (Giải thích: Trung tâm hô hấp gồm nhóm tế bào thần kinh hô hấp lưng và bụng nằm tại Hành tủy (Medulla) và Cầu não (Pons), tự động phát xung điều hòa nhịp hít vào thở ra.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-43",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Độc tố uốn ván (Tetanus toxin) gây co giật co cứng cơ liên tục ở gia súc do cơ chế nào?",
+    "back": "Đáp án: Ức chế giải phóng chất dẫn truyền thần kinh ức chế (GABA và Glycine) tại tủy sống (Giải thích: Độc tố Tetanospasmin ngăn chặn sự giải phóng các chất dẫn truyền ức chế GABA và Glycine từ các nơron trung gian tủy sống, khiến nơron vận động kích thích liên tục không kiểm soát gây co cứng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-44",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Sự khác biệt căn bản giữa cơ trơn và cơ vân trong cơ chế co cơ là cơ trơn không chứa phân tử nào?",
+    "back": "Đáp án: Troponin (thay thế bằng Calmodulin) (Giải thích: Cơ trơn hoàn toàn không có phức hợp Troponin. Thay vào đó, ion Ca2+ gắn với protein Calmodulin trong bào tương để hoạt hóa enzym Myosin Light Chain Kinase (MLCK).)"
+  },
+  {
+    "id": "fc-gen-1791881316061-45",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Sợi thần kinh có bao Myelin dẫn truyền xung thần kinh nhanh hơn sợi không có bao Myelin gấp nhiều lần nhờ cơ chế:",
+    "back": "Đáp án: Dẫn truyền nhảy cóc (Saltatory conduction) qua các eo Ranvier (Giải thích: Bao Myelin là lớp cách điện hoàn hảo, điện thế hoạt động chỉ phát sinh tại các khoảng gián đoạn (eo Ranvier), tạo nên hiện tượng nhảy vọt từ eo này sang eo kế tiếp rất nhanh.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-46",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bệnh ngoại vật đâm dạ tổ ong (Traumatic reticuloperitonitis) ở bò thường diễn biến nguy kịch sang tim do giải phẫu nào?",
+    "back": "Đáp án: Dạ tổ ong nằm ở vị trí thấp nhất và áp sát cơ hoành, phía trước cơ hoành là màng ngoài tim (Giải thích: Dạ tổ ong nằm ngay sát cơ hoành. Khi bò co bóp dạ tổ ong, đinh sắt nhọn dễ đâm thủng vách dạ tổ ong, xuyên qua cơ hoành vào bao tim gây viêm màng tim chèn ép tim (viêm bao tim do ngoại vật).)"
+  },
+  {
+    "id": "fc-gen-1791881316061-47",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao loài Ngựa (động vật dạ dày đơn ăn cỏ) rất dễ bị cơn đau bụng ngoại khoa (Colic) và xoắn ruột tử vong?",
+    "back": "Đáp án: Dạ dày nhỏ không thể ợ hơi hay nôn mửa, trong khi manh tràng và kết tràng khổng lồ dễ chướng hơi và xoắn vặn (Giải thích: Ngựa có cơ thắt tâm vị dạ dày đóng rất chặt ngăn cản phản xạ nôn và ợ hơi. Khi thức ăn lên men sinh hơi ở manh tràng lớn, áp lực tăng cao dễ dẫn đến chướng hơi ruột, lồng ruột, xoắn ruột cấp tính.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-48",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nước bọt của bò tiết ra hàng ngày (lên tới 100-150 lít/ngày) chứa hàm lượng cao ion nào giúp đệm ổn định pH dạ cỏ?",
+    "back": "Đáp án: Bicarbonate (HCO3-) và Phosphate (HPO4 2-) (Giải thích: Nước bọt bò là dung dịch đệm kiềm dồi dào chứa NaHCO3 và Na2HPO4, liên tục trung hòa lượng lớn các acid béo bay hơi (VFA) sinh ra trong quá trình vi sinh vật lên men dạ cỏ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-49",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bệnh sốt sữa (Milk Fever hay Hạ canxi huyết cấp tính) ở bò sữa cao sản sau khi sinh lứa 3-4 biểu hiện triệu chứng điển hình nào?",
+    "back": "Đáp án: Bò nằm bẹp không đứng dậy được, cổ ngoẹo hình chữ S, hạ thân nhiệt và liệt cơ (Giải thích: Khi bắt đầu tiết sữa ồ ạt, lượng lớn Canxi bị rút vào sữa mẹ khiến canxi máu tụt đột ngột. Cơ thể thiếu Ca2+ để dẫn truyền thần kinh cơ gây liệt cơ, bò nằm liệt bẹp, cổ ngoẹo gập chữ S.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-50",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Hormone T3 (Triiodothyronine) và T4 (Thyroxine) do tuyến giáp tiết ra có tác dụng sinh học căn bản nào?",
+    "back": "Đáp án: Tăng tốc độ chuyển hóa cơ bản, tăng sinh nhiệt và phát triển não bộ (Giải thích: Hormone tuyến giáp kích thích hoạt động chuyển hóa ở hầu hết các mô trong cơ thể, tăng tiêu thụ O2, sinh nhiệt và điều hòa sinh trưởng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-51",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Vỏ thượng thận được chia làm 3 lớp từ ngoài vào trong: Lớp cung, Lớp bó, Lớp lưới tương ứng tiết các hormone:",
+    "back": "Đáp án: Mineralocorticoid (Aldosterone), Glucocorticoid (Cortisol), Androgen (Giải thích: Lớp cung (Zona glomerulosa) tiết Aldosterone; Lớp bó (Zona fasciculata) tiết Cortisol chuyển hóa đường; Lớp lưới (Zona reticularis) tiết hormone sinh dục Androgen.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-52",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Quy tắc phối giống nhân tạo 'Sáng - Chiều' ở bò cái được áp dụng dựa trên cơ sở sinh lý nào?",
+    "back": "Đáp án: Bò rụng trứng 10-12 giờ sau khi dứt động dục, phối vào cuối giai đoạn đứng yên chịu đực để tinh trùng gặp trứng đúng thời điểm thụ tinh tốt nhất (Giải thích: Trứng bò rụng sau khi kết thúc chịu đực 10-12 giờ. Áp dụng quy tắc: Phát hiện bò chịu đực buổi sáng thì phối buổi chiều; phát hiện chịu đực buổi chiều thì phối sáng hôm sau để tinh trùng hoàn tất quá trình thụ tinh.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-53",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bánh nhau ở loài Bò và Cừu thuộc loại cấu trúc giải phẫu nào?",
+    "back": "Đáp án: Nhau núm (Cotyledonary placenta với các caruncle kết hợp cotyledon tạo placentome) (Giải thích: Bò và loài nhai lại có nhau núm (Cotyledonary): nhung mao màng đệm tập trung thành từng chùm (núm nhau - cotyledon) gắn vào các núm thịt (caruncle) của nội mạc tử cung mẹ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-54",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Giai đoạn hoàng thể (Luteal phase) trong chu kỳ động dục được đặc trưng bởi nồng độ cao của hormone nào?",
+    "back": "Đáp án: Progesterone (Giải thích: Sau khi rụng trứng, hoàng thể hình thành và tiết lượng lớn Progesterone để chuẩn bị niêm mạc tử cung đón phôi làm tổ và ức chế các đợt rụng trứng mới.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-55",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Phương pháp Cystocentesis trong thu thập mẫu nước tiểu thú y được tiến hành bằng cách nào?",
+    "back": "Đáp án: Chọc kim vô trùng xuyên qua thành bụng vào trực tiếp lòng bàng quang (Giải thích: Chọc hút bàng quang (Cystocentesis) là kỹ thuật đâm kim xuyên thành bụng vào bàng quang dưới hướng dẫn siêu âm hoặc định vị bằng tay để thu mẫu tinh khiết tuyệt đối phục vụ cấy vi khuẩn.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-56",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Dị tật bẩm sinh 'Thận móng ngựa' (Horseshoe Kidney) hình thành do cơ chế nào?",
+    "back": "Đáp án: Hai quả thận bị dính liền nhau ở một cực tạo thành hình chữ U vắt qua cột sống (Giải thích: Dị tật thận móng ngựa xảy ra khi hai mầm thận dính nhau ở cực dưới trong thời kỳ phôi thai, cản trở sự di chuyển lên trên và làm tăng nguy cơ ứ đọng nước tiểu, nhiễm trùng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-57",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nguyên nhân chính dẫn đến hình thành sỏi Struvite (Magnesium Ammonium Phosphate) ở đường tiết niệu mèo là:",
+    "back": "Đáp án: Nước tiểu kiềm hóa kéo dài và khẩu phần ăn dư thừa Magie, Phosphat (Giải thích: Tinh thể Struvite chỉ kết tủa và tạo sỏi trong môi trường nước tiểu có tính kiềm (pH > 7.0) kết hợp với khẩu phần giàu khoáng Magie và Phosphat.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-58",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Chất nào sau đây được sử dụng làm chất chuẩn lý tưởng nhất để đo mức lọc cầu thận (GFR) vì được lọc tự do và hoàn toàn không bị tái hấp thu hay bài tiết?",
+    "back": "Đáp án: Inulin (Giải thích: Inulin là polysaccharide ngoại sinh được lọc tự do qua màng lọc cầu thận, hoàn toàn không bị ống thận tái hấp thu cũng như không bị bài tiết thêm, do đó độ thanh thải Inulin bằng chính xác GFR.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-59",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao heo con sơ sinh nuôi nhốt trên nền xi măng bắt buộc phải được tiêm bổ sung Dextran Sắt lúc 3 ngày tuổi?",
+    "back": "Đáp án: Sữa heo mẹ rất nghèo chất sắt và lượng sắt dự trữ trong gan heo con sơ sinh chỉ đủ dùng 3 ngày (Giải thích: Heo con sơ sinh lớn rất nhanh nhưng sữa mẹ chỉ cung cấp khoảng 1 mg sắt/ngày (nhu cầu cần 7-10 mg), nếu không tiêm sắt 200mg lúc 3 ngày tuổi heo con sẽ bị thiếu máu nhược sắc nặng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-60",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Khi con vật bị nhiễm trùng vi khuẩn cấp tính sinh mủ, loại tế bào bạch cầu nào sẽ tăng sinh ồ ạt trong máu đầu tiên?",
+    "back": "Đáp án: Bạch cầu trung tính (Neutrophils) (Giải thích: Bạch cầu trung tính là hàng rào phòng ngự đầu tiên thực bào vi khuẩn gây bệnh, tăng nhanh và chuyển trái (tăng bạch cầu đũa non) khi có nhiễm trùng sinh mủ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-61",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Hệ nhóm máu chính ở loài Chó được ký hiệu là gì và có đặc điểm lâm sàng nào?",
+    "back": "Đáp án: Hệ DEA (Dog Erythrocyte Antigen); không có kháng thể tự nhiên từ trước nên lần truyền đầu tiên tương đối an toàn (Giải thích: Hệ DEA ở chó (đặc biệt DEA 1.1) không có kháng thể tự nhiên sẵn có, do đó lần truyền máu đầu tiên thường an toàn, nhưng sẽ kích hoạt cơ thể sinh kháng thể sau 1-2 tuần.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-62",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Gan tổng hợp phần lớn các yếu tố đông máu phụ thuộc vào vitamin nào?",
+    "back": "Đáp án: Vitamin K (Giải thích: Vitamin K là đồng yếu tố cần thiết cho enzyme carboxylase ở gan để hoạt hóa các yếu tố đông máu II (Prothrombin), VII, IX và X.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-63",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao khi gia cầm bị sốc nhiệt vào mùa hè nóng nực thở hổn hển (panting) lại dẫn đến vỏ trứng gà bị mỏng và dễ vỡ?",
+    "back": "Đáp án: Thở hổn hển làm mất quá nhiều CO2 gây kiềm hô hấp, làm giảm nồng độ ion HCO3- cần thiết để tạo vỏ đá vôi CaCO3 (Giải thích: Thở gấp thải CO2 quá mức làm máu gà rơi vào tình trạng kiềm hô hấp, giảm ion HCO3- trong máu, khiến tuyến tạo vỏ trứng ở ống dẫn trứng không đủ nguyên liệu kết tủa CaCO3.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-64",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Khí cặn (Residual Volume - RV) trong phổi là lượng khí:",
+    "back": "Đáp án: Còn lại trong phổi sau khi đã thở ra hết sức, không bao giờ tống hết ra ngoài được (Giải thích: Khí cặn là lượng khí luôn nằm lại trong phế nang ngay cả khi thở ra tối đa, giúp phổi không bị xẹp hoàn toàn và tiếp tục trao đổi khí giữa các nhịp thở.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-65",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Trung tâm điều hòa nhịp hô hấp tự động nằm ở phần nào của não bộ?",
+    "back": "Đáp án: Hành não và Cầu não (Thân não) (Giải thích: Trung tâm hô hấp gồm nhóm tế bào thần kinh hô hấp lưng và bụng nằm tại Hành tủy (Medulla) và Cầu não (Pons), tự động phát xung điều hòa nhịp hít vào thở ra.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-66",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Độc tố uốn ván (Tetanus toxin) gây co giật co cứng cơ liên tục ở gia súc do cơ chế nào?",
+    "back": "Đáp án: Ức chế giải phóng chất dẫn truyền thần kinh ức chế (GABA và Glycine) tại tủy sống (Giải thích: Độc tố Tetanospasmin ngăn chặn sự giải phóng các chất dẫn truyền ức chế GABA và Glycine từ các nơron trung gian tủy sống, khiến nơron vận động kích thích liên tục không kiểm soát gây co cứng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-67",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Sự khác biệt căn bản giữa cơ trơn và cơ vân trong cơ chế co cơ là cơ trơn không chứa phân tử nào?",
+    "back": "Đáp án: Troponin (thay thế bằng Calmodulin) (Giải thích: Cơ trơn hoàn toàn không có phức hợp Troponin. Thay vào đó, ion Ca2+ gắn với protein Calmodulin trong bào tương để hoạt hóa enzym Myosin Light Chain Kinase (MLCK).)"
+  },
+  {
+    "id": "fc-gen-1791881316061-68",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Sợi thần kinh có bao Myelin dẫn truyền xung thần kinh nhanh hơn sợi không có bao Myelin gấp nhiều lần nhờ cơ chế:",
+    "back": "Đáp án: Dẫn truyền nhảy cóc (Saltatory conduction) qua các eo Ranvier (Giải thích: Bao Myelin là lớp cách điện hoàn hảo, điện thế hoạt động chỉ phát sinh tại các khoảng gián đoạn (eo Ranvier), tạo nên hiện tượng nhảy vọt từ eo này sang eo kế tiếp rất nhanh.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-69",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bệnh ngoại vật đâm dạ tổ ong (Traumatic reticuloperitonitis) ở bò thường diễn biến nguy kịch sang tim do giải phẫu nào?",
+    "back": "Đáp án: Dạ tổ ong nằm ở vị trí thấp nhất và áp sát cơ hoành, phía trước cơ hoành là màng ngoài tim (Giải thích: Dạ tổ ong nằm ngay sát cơ hoành. Khi bò co bóp dạ tổ ong, đinh sắt nhọn dễ đâm thủng vách dạ tổ ong, xuyên qua cơ hoành vào bao tim gây viêm màng tim chèn ép tim (viêm bao tim do ngoại vật).)"
+  },
+  {
+    "id": "fc-gen-1791881316061-70",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao loài Ngựa (động vật dạ dày đơn ăn cỏ) rất dễ bị cơn đau bụng ngoại khoa (Colic) và xoắn ruột tử vong?",
+    "back": "Đáp án: Dạ dày nhỏ không thể ợ hơi hay nôn mửa, trong khi manh tràng và kết tràng khổng lồ dễ chướng hơi và xoắn vặn (Giải thích: Ngựa có cơ thắt tâm vị dạ dày đóng rất chặt ngăn cản phản xạ nôn và ợ hơi. Khi thức ăn lên men sinh hơi ở manh tràng lớn, áp lực tăng cao dễ dẫn đến chướng hơi ruột, lồng ruột, xoắn ruột cấp tính.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-71",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nước bọt của bò tiết ra hàng ngày (lên tới 100-150 lít/ngày) chứa hàm lượng cao ion nào giúp đệm ổn định pH dạ cỏ?",
+    "back": "Đáp án: Bicarbonate (HCO3-) và Phosphate (HPO4 2-) (Giải thích: Nước bọt bò là dung dịch đệm kiềm dồi dào chứa NaHCO3 và Na2HPO4, liên tục trung hòa lượng lớn các acid béo bay hơi (VFA) sinh ra trong quá trình vi sinh vật lên men dạ cỏ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-72",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bệnh sốt sữa (Milk Fever hay Hạ canxi huyết cấp tính) ở bò sữa cao sản sau khi sinh lứa 3-4 biểu hiện triệu chứng điển hình nào?",
+    "back": "Đáp án: Bò nằm bẹp không đứng dậy được, cổ ngoẹo hình chữ S, hạ thân nhiệt và liệt cơ (Giải thích: Khi bắt đầu tiết sữa ồ ạt, lượng lớn Canxi bị rút vào sữa mẹ khiến canxi máu tụt đột ngột. Cơ thể thiếu Ca2+ để dẫn truyền thần kinh cơ gây liệt cơ, bò nằm liệt bẹp, cổ ngoẹo gập chữ S.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-73",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Hormone T3 (Triiodothyronine) và T4 (Thyroxine) do tuyến giáp tiết ra có tác dụng sinh học căn bản nào?",
+    "back": "Đáp án: Tăng tốc độ chuyển hóa cơ bản, tăng sinh nhiệt và phát triển não bộ (Giải thích: Hormone tuyến giáp kích thích hoạt động chuyển hóa ở hầu hết các mô trong cơ thể, tăng tiêu thụ O2, sinh nhiệt và điều hòa sinh trưởng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-74",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Vỏ thượng thận được chia làm 3 lớp từ ngoài vào trong: Lớp cung, Lớp bó, Lớp lưới tương ứng tiết các hormone:",
+    "back": "Đáp án: Mineralocorticoid (Aldosterone), Glucocorticoid (Cortisol), Androgen (Giải thích: Lớp cung (Zona glomerulosa) tiết Aldosterone; Lớp bó (Zona fasciculata) tiết Cortisol chuyển hóa đường; Lớp lưới (Zona reticularis) tiết hormone sinh dục Androgen.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-75",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Quy tắc phối giống nhân tạo 'Sáng - Chiều' ở bò cái được áp dụng dựa trên cơ sở sinh lý nào?",
+    "back": "Đáp án: Bò rụng trứng 10-12 giờ sau khi dứt động dục, phối vào cuối giai đoạn đứng yên chịu đực để tinh trùng gặp trứng đúng thời điểm thụ tinh tốt nhất (Giải thích: Trứng bò rụng sau khi kết thúc chịu đực 10-12 giờ. Áp dụng quy tắc: Phát hiện bò chịu đực buổi sáng thì phối buổi chiều; phát hiện chịu đực buổi chiều thì phối sáng hôm sau để tinh trùng hoàn tất quá trình thụ tinh.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-76",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bánh nhau ở loài Bò và Cừu thuộc loại cấu trúc giải phẫu nào?",
+    "back": "Đáp án: Nhau núm (Cotyledonary placenta với các caruncle kết hợp cotyledon tạo placentome) (Giải thích: Bò và loài nhai lại có nhau núm (Cotyledonary): nhung mao màng đệm tập trung thành từng chùm (núm nhau - cotyledon) gắn vào các núm thịt (caruncle) của nội mạc tử cung mẹ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-77",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Giai đoạn hoàng thể (Luteal phase) trong chu kỳ động dục được đặc trưng bởi nồng độ cao của hormone nào?",
+    "back": "Đáp án: Progesterone (Giải thích: Sau khi rụng trứng, hoàng thể hình thành và tiết lượng lớn Progesterone để chuẩn bị niêm mạc tử cung đón phôi làm tổ và ức chế các đợt rụng trứng mới.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-78",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Phương pháp Cystocentesis trong thu thập mẫu nước tiểu thú y được tiến hành bằng cách nào?",
+    "back": "Đáp án: Chọc kim vô trùng xuyên qua thành bụng vào trực tiếp lòng bàng quang (Giải thích: Chọc hút bàng quang (Cystocentesis) là kỹ thuật đâm kim xuyên thành bụng vào bàng quang dưới hướng dẫn siêu âm hoặc định vị bằng tay để thu mẫu tinh khiết tuyệt đối phục vụ cấy vi khuẩn.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-79",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Dị tật bẩm sinh 'Thận móng ngựa' (Horseshoe Kidney) hình thành do cơ chế nào?",
+    "back": "Đáp án: Hai quả thận bị dính liền nhau ở một cực tạo thành hình chữ U vắt qua cột sống (Giải thích: Dị tật thận móng ngựa xảy ra khi hai mầm thận dính nhau ở cực dưới trong thời kỳ phôi thai, cản trở sự di chuyển lên trên và làm tăng nguy cơ ứ đọng nước tiểu, nhiễm trùng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-80",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nguyên nhân chính dẫn đến hình thành sỏi Struvite (Magnesium Ammonium Phosphate) ở đường tiết niệu mèo là:",
+    "back": "Đáp án: Nước tiểu kiềm hóa kéo dài và khẩu phần ăn dư thừa Magie, Phosphat (Giải thích: Tinh thể Struvite chỉ kết tủa và tạo sỏi trong môi trường nước tiểu có tính kiềm (pH > 7.0) kết hợp với khẩu phần giàu khoáng Magie và Phosphat.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-81",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Chất nào sau đây được sử dụng làm chất chuẩn lý tưởng nhất để đo mức lọc cầu thận (GFR) vì được lọc tự do và hoàn toàn không bị tái hấp thu hay bài tiết?",
+    "back": "Đáp án: Inulin (Giải thích: Inulin là polysaccharide ngoại sinh được lọc tự do qua màng lọc cầu thận, hoàn toàn không bị ống thận tái hấp thu cũng như không bị bài tiết thêm, do đó độ thanh thải Inulin bằng chính xác GFR.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-82",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao heo con sơ sinh nuôi nhốt trên nền xi măng bắt buộc phải được tiêm bổ sung Dextran Sắt lúc 3 ngày tuổi?",
+    "back": "Đáp án: Sữa heo mẹ rất nghèo chất sắt và lượng sắt dự trữ trong gan heo con sơ sinh chỉ đủ dùng 3 ngày (Giải thích: Heo con sơ sinh lớn rất nhanh nhưng sữa mẹ chỉ cung cấp khoảng 1 mg sắt/ngày (nhu cầu cần 7-10 mg), nếu không tiêm sắt 200mg lúc 3 ngày tuổi heo con sẽ bị thiếu máu nhược sắc nặng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-83",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Khi con vật bị nhiễm trùng vi khuẩn cấp tính sinh mủ, loại tế bào bạch cầu nào sẽ tăng sinh ồ ạt trong máu đầu tiên?",
+    "back": "Đáp án: Bạch cầu trung tính (Neutrophils) (Giải thích: Bạch cầu trung tính là hàng rào phòng ngự đầu tiên thực bào vi khuẩn gây bệnh, tăng nhanh và chuyển trái (tăng bạch cầu đũa non) khi có nhiễm trùng sinh mủ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-84",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Hệ nhóm máu chính ở loài Chó được ký hiệu là gì và có đặc điểm lâm sàng nào?",
+    "back": "Đáp án: Hệ DEA (Dog Erythrocyte Antigen); không có kháng thể tự nhiên từ trước nên lần truyền đầu tiên tương đối an toàn (Giải thích: Hệ DEA ở chó (đặc biệt DEA 1.1) không có kháng thể tự nhiên sẵn có, do đó lần truyền máu đầu tiên thường an toàn, nhưng sẽ kích hoạt cơ thể sinh kháng thể sau 1-2 tuần.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-85",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Gan tổng hợp phần lớn các yếu tố đông máu phụ thuộc vào vitamin nào?",
+    "back": "Đáp án: Vitamin K (Giải thích: Vitamin K là đồng yếu tố cần thiết cho enzyme carboxylase ở gan để hoạt hóa các yếu tố đông máu II (Prothrombin), VII, IX và X.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-86",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao khi gia cầm bị sốc nhiệt vào mùa hè nóng nực thở hổn hển (panting) lại dẫn đến vỏ trứng gà bị mỏng và dễ vỡ?",
+    "back": "Đáp án: Thở hổn hển làm mất quá nhiều CO2 gây kiềm hô hấp, làm giảm nồng độ ion HCO3- cần thiết để tạo vỏ đá vôi CaCO3 (Giải thích: Thở gấp thải CO2 quá mức làm máu gà rơi vào tình trạng kiềm hô hấp, giảm ion HCO3- trong máu, khiến tuyến tạo vỏ trứng ở ống dẫn trứng không đủ nguyên liệu kết tủa CaCO3.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-87",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Khí cặn (Residual Volume - RV) trong phổi là lượng khí:",
+    "back": "Đáp án: Còn lại trong phổi sau khi đã thở ra hết sức, không bao giờ tống hết ra ngoài được (Giải thích: Khí cặn là lượng khí luôn nằm lại trong phế nang ngay cả khi thở ra tối đa, giúp phổi không bị xẹp hoàn toàn và tiếp tục trao đổi khí giữa các nhịp thở.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-88",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Trung tâm điều hòa nhịp hô hấp tự động nằm ở phần nào của não bộ?",
+    "back": "Đáp án: Hành não và Cầu não (Thân não) (Giải thích: Trung tâm hô hấp gồm nhóm tế bào thần kinh hô hấp lưng và bụng nằm tại Hành tủy (Medulla) và Cầu não (Pons), tự động phát xung điều hòa nhịp hít vào thở ra.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-89",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Độc tố uốn ván (Tetanus toxin) gây co giật co cứng cơ liên tục ở gia súc do cơ chế nào?",
+    "back": "Đáp án: Ức chế giải phóng chất dẫn truyền thần kinh ức chế (GABA và Glycine) tại tủy sống (Giải thích: Độc tố Tetanospasmin ngăn chặn sự giải phóng các chất dẫn truyền ức chế GABA và Glycine từ các nơron trung gian tủy sống, khiến nơron vận động kích thích liên tục không kiểm soát gây co cứng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-90",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Sự khác biệt căn bản giữa cơ trơn và cơ vân trong cơ chế co cơ là cơ trơn không chứa phân tử nào?",
+    "back": "Đáp án: Troponin (thay thế bằng Calmodulin) (Giải thích: Cơ trơn hoàn toàn không có phức hợp Troponin. Thay vào đó, ion Ca2+ gắn với protein Calmodulin trong bào tương để hoạt hóa enzym Myosin Light Chain Kinase (MLCK).)"
+  },
+  {
+    "id": "fc-gen-1791881316061-91",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Sợi thần kinh có bao Myelin dẫn truyền xung thần kinh nhanh hơn sợi không có bao Myelin gấp nhiều lần nhờ cơ chế:",
+    "back": "Đáp án: Dẫn truyền nhảy cóc (Saltatory conduction) qua các eo Ranvier (Giải thích: Bao Myelin là lớp cách điện hoàn hảo, điện thế hoạt động chỉ phát sinh tại các khoảng gián đoạn (eo Ranvier), tạo nên hiện tượng nhảy vọt từ eo này sang eo kế tiếp rất nhanh.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-92",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bệnh ngoại vật đâm dạ tổ ong (Traumatic reticuloperitonitis) ở bò thường diễn biến nguy kịch sang tim do giải phẫu nào?",
+    "back": "Đáp án: Dạ tổ ong nằm ở vị trí thấp nhất và áp sát cơ hoành, phía trước cơ hoành là màng ngoài tim (Giải thích: Dạ tổ ong nằm ngay sát cơ hoành. Khi bò co bóp dạ tổ ong, đinh sắt nhọn dễ đâm thủng vách dạ tổ ong, xuyên qua cơ hoành vào bao tim gây viêm màng tim chèn ép tim (viêm bao tim do ngoại vật).)"
+  },
+  {
+    "id": "fc-gen-1791881316061-93",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao loài Ngựa (động vật dạ dày đơn ăn cỏ) rất dễ bị cơn đau bụng ngoại khoa (Colic) và xoắn ruột tử vong?",
+    "back": "Đáp án: Dạ dày nhỏ không thể ợ hơi hay nôn mửa, trong khi manh tràng và kết tràng khổng lồ dễ chướng hơi và xoắn vặn (Giải thích: Ngựa có cơ thắt tâm vị dạ dày đóng rất chặt ngăn cản phản xạ nôn và ợ hơi. Khi thức ăn lên men sinh hơi ở manh tràng lớn, áp lực tăng cao dễ dẫn đến chướng hơi ruột, lồng ruột, xoắn ruột cấp tính.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-94",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nước bọt của bò tiết ra hàng ngày (lên tới 100-150 lít/ngày) chứa hàm lượng cao ion nào giúp đệm ổn định pH dạ cỏ?",
+    "back": "Đáp án: Bicarbonate (HCO3-) và Phosphate (HPO4 2-) (Giải thích: Nước bọt bò là dung dịch đệm kiềm dồi dào chứa NaHCO3 và Na2HPO4, liên tục trung hòa lượng lớn các acid béo bay hơi (VFA) sinh ra trong quá trình vi sinh vật lên men dạ cỏ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-95",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bệnh sốt sữa (Milk Fever hay Hạ canxi huyết cấp tính) ở bò sữa cao sản sau khi sinh lứa 3-4 biểu hiện triệu chứng điển hình nào?",
+    "back": "Đáp án: Bò nằm bẹp không đứng dậy được, cổ ngoẹo hình chữ S, hạ thân nhiệt và liệt cơ (Giải thích: Khi bắt đầu tiết sữa ồ ạt, lượng lớn Canxi bị rút vào sữa mẹ khiến canxi máu tụt đột ngột. Cơ thể thiếu Ca2+ để dẫn truyền thần kinh cơ gây liệt cơ, bò nằm liệt bẹp, cổ ngoẹo gập chữ S.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-96",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Hormone T3 (Triiodothyronine) và T4 (Thyroxine) do tuyến giáp tiết ra có tác dụng sinh học căn bản nào?",
+    "back": "Đáp án: Tăng tốc độ chuyển hóa cơ bản, tăng sinh nhiệt và phát triển não bộ (Giải thích: Hormone tuyến giáp kích thích hoạt động chuyển hóa ở hầu hết các mô trong cơ thể, tăng tiêu thụ O2, sinh nhiệt và điều hòa sinh trưởng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-97",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Vỏ thượng thận được chia làm 3 lớp từ ngoài vào trong: Lớp cung, Lớp bó, Lớp lưới tương ứng tiết các hormone:",
+    "back": "Đáp án: Mineralocorticoid (Aldosterone), Glucocorticoid (Cortisol), Androgen (Giải thích: Lớp cung (Zona glomerulosa) tiết Aldosterone; Lớp bó (Zona fasciculata) tiết Cortisol chuyển hóa đường; Lớp lưới (Zona reticularis) tiết hormone sinh dục Androgen.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-98",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Quy tắc phối giống nhân tạo 'Sáng - Chiều' ở bò cái được áp dụng dựa trên cơ sở sinh lý nào?",
+    "back": "Đáp án: Bò rụng trứng 10-12 giờ sau khi dứt động dục, phối vào cuối giai đoạn đứng yên chịu đực để tinh trùng gặp trứng đúng thời điểm thụ tinh tốt nhất (Giải thích: Trứng bò rụng sau khi kết thúc chịu đực 10-12 giờ. Áp dụng quy tắc: Phát hiện bò chịu đực buổi sáng thì phối buổi chiều; phát hiện chịu đực buổi chiều thì phối sáng hôm sau để tinh trùng hoàn tất quá trình thụ tinh.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-99",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bánh nhau ở loài Bò và Cừu thuộc loại cấu trúc giải phẫu nào?",
+    "back": "Đáp án: Nhau núm (Cotyledonary placenta với các caruncle kết hợp cotyledon tạo placentome) (Giải thích: Bò và loài nhai lại có nhau núm (Cotyledonary): nhung mao màng đệm tập trung thành từng chùm (núm nhau - cotyledon) gắn vào các núm thịt (caruncle) của nội mạc tử cung mẹ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-100",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Giai đoạn hoàng thể (Luteal phase) trong chu kỳ động dục được đặc trưng bởi nồng độ cao của hormone nào?",
+    "back": "Đáp án: Progesterone (Giải thích: Sau khi rụng trứng, hoàng thể hình thành và tiết lượng lớn Progesterone để chuẩn bị niêm mạc tử cung đón phôi làm tổ và ức chế các đợt rụng trứng mới.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-101",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Phương pháp Cystocentesis trong thu thập mẫu nước tiểu thú y được tiến hành bằng cách nào?",
+    "back": "Đáp án: Chọc kim vô trùng xuyên qua thành bụng vào trực tiếp lòng bàng quang (Giải thích: Chọc hút bàng quang (Cystocentesis) là kỹ thuật đâm kim xuyên thành bụng vào bàng quang dưới hướng dẫn siêu âm hoặc định vị bằng tay để thu mẫu tinh khiết tuyệt đối phục vụ cấy vi khuẩn.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-102",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Dị tật bẩm sinh 'Thận móng ngựa' (Horseshoe Kidney) hình thành do cơ chế nào?",
+    "back": "Đáp án: Hai quả thận bị dính liền nhau ở một cực tạo thành hình chữ U vắt qua cột sống (Giải thích: Dị tật thận móng ngựa xảy ra khi hai mầm thận dính nhau ở cực dưới trong thời kỳ phôi thai, cản trở sự di chuyển lên trên và làm tăng nguy cơ ứ đọng nước tiểu, nhiễm trùng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-103",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nguyên nhân chính dẫn đến hình thành sỏi Struvite (Magnesium Ammonium Phosphate) ở đường tiết niệu mèo là:",
+    "back": "Đáp án: Nước tiểu kiềm hóa kéo dài và khẩu phần ăn dư thừa Magie, Phosphat (Giải thích: Tinh thể Struvite chỉ kết tủa và tạo sỏi trong môi trường nước tiểu có tính kiềm (pH > 7.0) kết hợp với khẩu phần giàu khoáng Magie và Phosphat.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-104",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Chất nào sau đây được sử dụng làm chất chuẩn lý tưởng nhất để đo mức lọc cầu thận (GFR) vì được lọc tự do và hoàn toàn không bị tái hấp thu hay bài tiết?",
+    "back": "Đáp án: Inulin (Giải thích: Inulin là polysaccharide ngoại sinh được lọc tự do qua màng lọc cầu thận, hoàn toàn không bị ống thận tái hấp thu cũng như không bị bài tiết thêm, do đó độ thanh thải Inulin bằng chính xác GFR.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-105",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao heo con sơ sinh nuôi nhốt trên nền xi măng bắt buộc phải được tiêm bổ sung Dextran Sắt lúc 3 ngày tuổi?",
+    "back": "Đáp án: Sữa heo mẹ rất nghèo chất sắt và lượng sắt dự trữ trong gan heo con sơ sinh chỉ đủ dùng 3 ngày (Giải thích: Heo con sơ sinh lớn rất nhanh nhưng sữa mẹ chỉ cung cấp khoảng 1 mg sắt/ngày (nhu cầu cần 7-10 mg), nếu không tiêm sắt 200mg lúc 3 ngày tuổi heo con sẽ bị thiếu máu nhược sắc nặng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-106",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Khi con vật bị nhiễm trùng vi khuẩn cấp tính sinh mủ, loại tế bào bạch cầu nào sẽ tăng sinh ồ ạt trong máu đầu tiên?",
+    "back": "Đáp án: Bạch cầu trung tính (Neutrophils) (Giải thích: Bạch cầu trung tính là hàng rào phòng ngự đầu tiên thực bào vi khuẩn gây bệnh, tăng nhanh và chuyển trái (tăng bạch cầu đũa non) khi có nhiễm trùng sinh mủ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-107",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Hệ nhóm máu chính ở loài Chó được ký hiệu là gì và có đặc điểm lâm sàng nào?",
+    "back": "Đáp án: Hệ DEA (Dog Erythrocyte Antigen); không có kháng thể tự nhiên từ trước nên lần truyền đầu tiên tương đối an toàn (Giải thích: Hệ DEA ở chó (đặc biệt DEA 1.1) không có kháng thể tự nhiên sẵn có, do đó lần truyền máu đầu tiên thường an toàn, nhưng sẽ kích hoạt cơ thể sinh kháng thể sau 1-2 tuần.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-108",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Gan tổng hợp phần lớn các yếu tố đông máu phụ thuộc vào vitamin nào?",
+    "back": "Đáp án: Vitamin K (Giải thích: Vitamin K là đồng yếu tố cần thiết cho enzyme carboxylase ở gan để hoạt hóa các yếu tố đông máu II (Prothrombin), VII, IX và X.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-109",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao khi gia cầm bị sốc nhiệt vào mùa hè nóng nực thở hổn hển (panting) lại dẫn đến vỏ trứng gà bị mỏng và dễ vỡ?",
+    "back": "Đáp án: Thở hổn hển làm mất quá nhiều CO2 gây kiềm hô hấp, làm giảm nồng độ ion HCO3- cần thiết để tạo vỏ đá vôi CaCO3 (Giải thích: Thở gấp thải CO2 quá mức làm máu gà rơi vào tình trạng kiềm hô hấp, giảm ion HCO3- trong máu, khiến tuyến tạo vỏ trứng ở ống dẫn trứng không đủ nguyên liệu kết tủa CaCO3.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-110",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Khí cặn (Residual Volume - RV) trong phổi là lượng khí:",
+    "back": "Đáp án: Còn lại trong phổi sau khi đã thở ra hết sức, không bao giờ tống hết ra ngoài được (Giải thích: Khí cặn là lượng khí luôn nằm lại trong phế nang ngay cả khi thở ra tối đa, giúp phổi không bị xẹp hoàn toàn và tiếp tục trao đổi khí giữa các nhịp thở.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-111",
+    "sessionId": 3,
+    "badge": "Hệ Hô Hấp",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Trung tâm điều hòa nhịp hô hấp tự động nằm ở phần nào của não bộ?",
+    "back": "Đáp án: Hành não và Cầu não (Thân não) (Giải thích: Trung tâm hô hấp gồm nhóm tế bào thần kinh hô hấp lưng và bụng nằm tại Hành tủy (Medulla) và Cầu não (Pons), tự động phát xung điều hòa nhịp hít vào thở ra.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-112",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Độc tố uốn ván (Tetanus toxin) gây co giật co cứng cơ liên tục ở gia súc do cơ chế nào?",
+    "back": "Đáp án: Ức chế giải phóng chất dẫn truyền thần kinh ức chế (GABA và Glycine) tại tủy sống (Giải thích: Độc tố Tetanospasmin ngăn chặn sự giải phóng các chất dẫn truyền ức chế GABA và Glycine từ các nơron trung gian tủy sống, khiến nơron vận động kích thích liên tục không kiểm soát gây co cứng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-113",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Sự khác biệt căn bản giữa cơ trơn và cơ vân trong cơ chế co cơ là cơ trơn không chứa phân tử nào?",
+    "back": "Đáp án: Troponin (thay thế bằng Calmodulin) (Giải thích: Cơ trơn hoàn toàn không có phức hợp Troponin. Thay vào đó, ion Ca2+ gắn với protein Calmodulin trong bào tương để hoạt hóa enzym Myosin Light Chain Kinase (MLCK).)"
+  },
+  {
+    "id": "fc-gen-1791881316061-114",
+    "sessionId": 4,
+    "badge": "Cơ - Thần Kinh",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Sợi thần kinh có bao Myelin dẫn truyền xung thần kinh nhanh hơn sợi không có bao Myelin gấp nhiều lần nhờ cơ chế:",
+    "back": "Đáp án: Dẫn truyền nhảy cóc (Saltatory conduction) qua các eo Ranvier (Giải thích: Bao Myelin là lớp cách điện hoàn hảo, điện thế hoạt động chỉ phát sinh tại các khoảng gián đoạn (eo Ranvier), tạo nên hiện tượng nhảy vọt từ eo này sang eo kế tiếp rất nhanh.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-115",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bệnh ngoại vật đâm dạ tổ ong (Traumatic reticuloperitonitis) ở bò thường diễn biến nguy kịch sang tim do giải phẫu nào?",
+    "back": "Đáp án: Dạ tổ ong nằm ở vị trí thấp nhất và áp sát cơ hoành, phía trước cơ hoành là màng ngoài tim (Giải thích: Dạ tổ ong nằm ngay sát cơ hoành. Khi bò co bóp dạ tổ ong, đinh sắt nhọn dễ đâm thủng vách dạ tổ ong, xuyên qua cơ hoành vào bao tim gây viêm màng tim chèn ép tim (viêm bao tim do ngoại vật).)"
+  },
+  {
+    "id": "fc-gen-1791881316061-116",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao loài Ngựa (động vật dạ dày đơn ăn cỏ) rất dễ bị cơn đau bụng ngoại khoa (Colic) và xoắn ruột tử vong?",
+    "back": "Đáp án: Dạ dày nhỏ không thể ợ hơi hay nôn mửa, trong khi manh tràng và kết tràng khổng lồ dễ chướng hơi và xoắn vặn (Giải thích: Ngựa có cơ thắt tâm vị dạ dày đóng rất chặt ngăn cản phản xạ nôn và ợ hơi. Khi thức ăn lên men sinh hơi ở manh tràng lớn, áp lực tăng cao dễ dẫn đến chướng hơi ruột, lồng ruột, xoắn ruột cấp tính.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-117",
+    "sessionId": 5,
+    "badge": "Hệ Tiêu Hóa",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nước bọt của bò tiết ra hàng ngày (lên tới 100-150 lít/ngày) chứa hàm lượng cao ion nào giúp đệm ổn định pH dạ cỏ?",
+    "back": "Đáp án: Bicarbonate (HCO3-) và Phosphate (HPO4 2-) (Giải thích: Nước bọt bò là dung dịch đệm kiềm dồi dào chứa NaHCO3 và Na2HPO4, liên tục trung hòa lượng lớn các acid béo bay hơi (VFA) sinh ra trong quá trình vi sinh vật lên men dạ cỏ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-118",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bệnh sốt sữa (Milk Fever hay Hạ canxi huyết cấp tính) ở bò sữa cao sản sau khi sinh lứa 3-4 biểu hiện triệu chứng điển hình nào?",
+    "back": "Đáp án: Bò nằm bẹp không đứng dậy được, cổ ngoẹo hình chữ S, hạ thân nhiệt và liệt cơ (Giải thích: Khi bắt đầu tiết sữa ồ ạt, lượng lớn Canxi bị rút vào sữa mẹ khiến canxi máu tụt đột ngột. Cơ thể thiếu Ca2+ để dẫn truyền thần kinh cơ gây liệt cơ, bò nằm liệt bẹp, cổ ngoẹo gập chữ S.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-119",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Hormone T3 (Triiodothyronine) và T4 (Thyroxine) do tuyến giáp tiết ra có tác dụng sinh học căn bản nào?",
+    "back": "Đáp án: Tăng tốc độ chuyển hóa cơ bản, tăng sinh nhiệt và phát triển não bộ (Giải thích: Hormone tuyến giáp kích thích hoạt động chuyển hóa ở hầu hết các mô trong cơ thể, tăng tiêu thụ O2, sinh nhiệt và điều hòa sinh trưởng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-120",
+    "sessionId": 6,
+    "badge": "Hệ Nội Tiết",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Vỏ thượng thận được chia làm 3 lớp từ ngoài vào trong: Lớp cung, Lớp bó, Lớp lưới tương ứng tiết các hormone:",
+    "back": "Đáp án: Mineralocorticoid (Aldosterone), Glucocorticoid (Cortisol), Androgen (Giải thích: Lớp cung (Zona glomerulosa) tiết Aldosterone; Lớp bó (Zona fasciculata) tiết Cortisol chuyển hóa đường; Lớp lưới (Zona reticularis) tiết hormone sinh dục Androgen.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-121",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Quy tắc phối giống nhân tạo 'Sáng - Chiều' ở bò cái được áp dụng dựa trên cơ sở sinh lý nào?",
+    "back": "Đáp án: Bò rụng trứng 10-12 giờ sau khi dứt động dục, phối vào cuối giai đoạn đứng yên chịu đực để tinh trùng gặp trứng đúng thời điểm thụ tinh tốt nhất (Giải thích: Trứng bò rụng sau khi kết thúc chịu đực 10-12 giờ. Áp dụng quy tắc: Phát hiện bò chịu đực buổi sáng thì phối buổi chiều; phát hiện chịu đực buổi chiều thì phối sáng hôm sau để tinh trùng hoàn tất quá trình thụ tinh.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-122",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Bánh nhau ở loài Bò và Cừu thuộc loại cấu trúc giải phẫu nào?",
+    "back": "Đáp án: Nhau núm (Cotyledonary placenta với các caruncle kết hợp cotyledon tạo placentome) (Giải thích: Bò và loài nhai lại có nhau núm (Cotyledonary): nhung mao màng đệm tập trung thành từng chùm (núm nhau - cotyledon) gắn vào các núm thịt (caruncle) của nội mạc tử cung mẹ.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-123",
+    "sessionId": 7,
+    "badge": "Hệ Sinh Sản",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Giai đoạn hoàng thể (Luteal phase) trong chu kỳ động dục được đặc trưng bởi nồng độ cao của hormone nào?",
+    "back": "Đáp án: Progesterone (Giải thích: Sau khi rụng trứng, hoàng thể hình thành và tiết lượng lớn Progesterone để chuẩn bị niêm mạc tử cung đón phôi làm tổ và ức chế các đợt rụng trứng mới.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-124",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Phương pháp Cystocentesis trong thu thập mẫu nước tiểu thú y được tiến hành bằng cách nào?",
+    "back": "Đáp án: Chọc kim vô trùng xuyên qua thành bụng vào trực tiếp lòng bàng quang (Giải thích: Chọc hút bàng quang (Cystocentesis) là kỹ thuật đâm kim xuyên thành bụng vào bàng quang dưới hướng dẫn siêu âm hoặc định vị bằng tay để thu mẫu tinh khiết tuyệt đối phục vụ cấy vi khuẩn.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-125",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Dị tật bẩm sinh 'Thận móng ngựa' (Horseshoe Kidney) hình thành do cơ chế nào?",
+    "back": "Đáp án: Hai quả thận bị dính liền nhau ở một cực tạo thành hình chữ U vắt qua cột sống (Giải thích: Dị tật thận móng ngựa xảy ra khi hai mầm thận dính nhau ở cực dưới trong thời kỳ phôi thai, cản trở sự di chuyển lên trên và làm tăng nguy cơ ứ đọng nước tiểu, nhiễm trùng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-126",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Nguyên nhân chính dẫn đến hình thành sỏi Struvite (Magnesium Ammonium Phosphate) ở đường tiết niệu mèo là:",
+    "back": "Đáp án: Nước tiểu kiềm hóa kéo dài và khẩu phần ăn dư thừa Magie, Phosphat (Giải thích: Tinh thể Struvite chỉ kết tủa và tạo sỏi trong môi trường nước tiểu có tính kiềm (pH > 7.0) kết hợp với khẩu phần giàu khoáng Magie và Phosphat.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-127",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Chất nào sau đây được sử dụng làm chất chuẩn lý tưởng nhất để đo mức lọc cầu thận (GFR) vì được lọc tự do và hoàn toàn không bị tái hấp thu hay bài tiết?",
+    "back": "Đáp án: Inulin (Giải thích: Inulin là polysaccharide ngoại sinh được lọc tự do qua màng lọc cầu thận, hoàn toàn không bị ống thận tái hấp thu cũng như không bị bài tiết thêm, do đó độ thanh thải Inulin bằng chính xác GFR.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-128",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Tại sao heo con sơ sinh nuôi nhốt trên nền xi măng bắt buộc phải được tiêm bổ sung Dextran Sắt lúc 3 ngày tuổi?",
+    "back": "Đáp án: Sữa heo mẹ rất nghèo chất sắt và lượng sắt dự trữ trong gan heo con sơ sinh chỉ đủ dùng 3 ngày (Giải thích: Heo con sơ sinh lớn rất nhanh nhưng sữa mẹ chỉ cung cấp khoảng 1 mg sắt/ngày (nhu cầu cần 7-10 mg), nếu không tiêm sắt 200mg lúc 3 ngày tuổi heo con sẽ bị thiếu máu nhược sắc nặng.)"
+  },
+  {
+    "id": "fc-gen-1791881316061-129",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "category": "Chỉ số & Khái niệm",
+    "front": "Trọng tâm ôn thi: Khi con vật bị nhiễm trùng vi khuẩn cấp tính sinh mủ, loại tế bào bạch cầu nào sẽ tăng sinh ồ ạt trong máu đầu tiên?",
+    "back": "Đáp án: Bạch cầu trung tính (Neutrophils) (Giải thích: Bạch cầu trung tính là hàng rào phòng ngự đầu tiên thực bào vi khuẩn gây bệnh, tăng nhanh và chuyển trái (tăng bạch cầu đũa non) khi có nhiễm trùng sinh mủ.)"
   }
 ]

@@ -10,11 +10,15 @@ const config: Config = {
     extend: {
       colors: {
         vet: {
-          mint: "#14B8A6",
-          mintLight: "#F0FDFA",
-          mintDark: "#0F766E",
+          teal: "#0D9488",
+          tealDark: "#0F766E",
+          tealLight: "#CCFBF1",
+          mint: "#10B981",
+          mintLight: "#ECFDF5",
+          mintDark: "#047857",
           butter: "#FEF3C7",
           coral: "#F87171",
+          coralDark: "#DC2626",
           coralLight: "#FEF2F2",
           sky: "#0284C7",
           skyLight: "#F0F9FF",

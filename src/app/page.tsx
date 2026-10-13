@@ -44,26 +44,26 @@ export default function HomePage() {
             <span>Học phần Sinh Lý Động Vật (NS470) • ĐH Cần Thơ</span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+          <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
             Chinh phục Sinh Lý Thú Y <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-vet-teal to-emerald-600">
+            <span className="text-teal-800 bg-clip-text bg-gradient-to-r from-teal-800 to-emerald-800 font-black">
               dễ như đọc truyện tranh!
             </span>
           </h1>
 
-          <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+          <p className="text-sm sm:text-base text-slate-700 font-medium leading-relaxed">
             Dành riêng cho bạn mới bắt đầu: Đơn giản hóa cơ chế phức tạp với ví von trực quan, 
-            công thức rõ ràng, <strong>147 flashcards</strong> nhớ lâu và <strong>phòng thi thử 50 câu / 60 phút</strong> chuẩn cấu trúc đề thi chính thức.
+            công thức rõ ràng, <strong>300+ flashcards</strong> nhớ lâu và <strong>phòng thi thử trắc nghiệm chuẩn đề thi</strong> của Thầy Thâm, Thầy Đồ, Thầy Nhã.
           </p>
 
           {/* Action Buttons */}
           <div className="flex flex-wrap items-center gap-3 pt-2">
             <Link
               href="/lessons/1"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-gradient-to-r from-vet-teal to-emerald-600 text-white font-bold text-sm shadow-md shadow-vet-teal/25 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-teal-700 hover:bg-teal-800 text-white font-extrabold text-sm shadow-md shadow-teal-900/25 hover:scale-[1.02] active:scale-[0.98] transition-all"
             >
-              <span>Vào Đảo 1: Bài Tiết</span>
-              <ArrowRight className="w-4 h-4" />
+              <span className="text-white">Vào Đảo 1: Bài Tiết</span>
+              <ArrowRight className="w-4 h-4 text-white" />
             </Link>
 
             <Link
@@ -83,16 +83,16 @@ export default function HomePage() {
             <div className="text-xs text-slate-500 font-medium">19 giờ bài giảng sâu</div>
           </div>
           <div className="p-3 rounded-2xl bg-white/70 border border-slate-100 shadow-xs">
-            <div className="text-2xl font-black text-amber-600">140 Câu</div>
+            <div className="text-2xl font-black text-amber-600">350+ Câu</div>
             <div className="text-xs text-slate-500 font-medium">Trắc nghiệm giải thích chi tiết</div>
           </div>
           <div className="p-3 rounded-2xl bg-white/70 border border-slate-100 shadow-xs">
-            <div className="text-2xl font-black text-emerald-600">147 Thẻ</div>
+            <div className="text-2xl font-black text-emerald-600">300+ Thẻ</div>
             <div className="text-xs text-slate-500 font-medium">Flashcard chỉ số & thuật ngữ</div>
           </div>
           <div className="p-3 rounded-2xl bg-white/70 border border-slate-100 shadow-xs">
-            <div className="text-2xl font-black text-rose-600">3 Thầy Cô</div>
-            <div className="text-xs text-slate-500 font-medium">Radar bẫy đề thi CTU</div>
+            <div className="text-2xl font-black text-teal-700">Dr. Paw AI</div>
+            <div className="text-xs text-slate-500 font-medium">Trợ lý gia sư hỏi đáp 24/7</div>
           </div>
         </div>
       </section>
@@ -239,9 +239,9 @@ export default function HomePage() {
             <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
               🃏
             </div>
-            <h3 className="font-extrabold text-slate-900 text-lg">147 Flashcards</h3>
+            <h3 className="font-extrabold text-slate-900 text-lg">300+ Flashcards</h3>
             <p className="text-xs text-slate-500 leading-relaxed">
-              Lật thẻ 3D ghi nhớ thuật ngữ, công thức GFR, chu kỳ động dục và chỉ số sinh lý nước tiểu.
+              Lật thẻ 3D hoặc đọc lướt dạng bảng: Ghi nhớ thuật ngữ, công thức GFR, chu kỳ động dục và chỉ số sinh lý nước tiểu.
             </p>
           </div>
           <div className="mt-4 flex items-center text-xs font-bold text-vet-teal group-hover:translate-x-1 transition-transform">
