@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "fc_1_1",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Nephron (Nephron)",
+    "back": "Đơn vị cấu trúc và chức năng vi thể của thận, gồm cầu thận và hệ thống ống thận, thực hiện nhiệm vụ lọc máu và tạo nước tiểu.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_2",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Cầu thận (Glomerulus)",
+    "back": "Búi mao mạch cuộn tròn có áp suất thủy tĩnh cao, được bao bọc bởi nang Bowman, nơi diễn ra quá trình siêu lọc đầu tiên.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_3",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Nang Bowman (Bowman's capsule)",
+    "back": "Cấu trúc hình bọc hai lớp bao quanh búi mao mạch cầu thận, tiếp nhận dịch lọc cầu thận (nước tiểu đầu).",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_4",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Tế bào có chân (Podocytes)",
+    "back": "Các tế bào biểu mô thuộc lá tạng nang Bowman, có các tua chân đan cài tạo khe lọc kích thước ~7-9 nm, ngăn cản protein huyết tương.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_5",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Mức lọc cầu thận (Glomerular Filtration Rate (GFR))",
+    "back": "Tổng thể tích dịch lọc được hình thành từ toàn bộ các cầu thận của hai quả thận trong một đơn vị thời gian (ml/phút).",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_6",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Quai Henle (Loop of Henle)",
+    "back": "Đoạn ống thận hình chữ U nối giữa ống lượn gần và ống lượn xa, gồm nhánh xuống mỏng và nhánh lên dày, duy trì độ ưu trương của tủy thận.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_7",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Vasa recta (Vasa recta)",
+    "back": "Mạng lưới mao mạch thẳng chạy song song với quai Henle trong vùng tủy thận, đóng vai trò trao đổi chất ngược dòng giữ ổn định gradient áp suất thẩm thấu.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_8",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Tiểu tiện (Micturition)",
+    "back": "Quá trình bài xuất nước tiểu từ bàng quang qua niệu đạo ra ngoài môi trường thông qua cơ chế phản xạ thần kinh phức hợp.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_9",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Đái máu / Huyết niệu (Hematuria)",
+    "back": "Sự hiện diện bất thường của hồng cầu nguyên vẹn trong nước tiểu do chấn thương, viêm loét đường tiết niệu hoặc sỏi cọ xát.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_10",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Đạm niệu / Protein niệu (Proteinuria)",
+    "back": "Sự xuất hiện của protein (chủ yếu là Albumin) trong nước tiểu, chỉ điểm sự tổn thương hàng rào lọc cầu thận.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_11",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Đường niệu (Glycosuria / Glucosuria)",
+    "back": "Nước tiểu có chứa Glucose, xảy ra khi đường huyết vượt quá ngưỡng tái hấp thu tối đa của ống thận ($T_{mG}$).",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_12",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Urobilin (Urobilin (Urochrome))",
+    "back": "Sắc tố màu vàng dẫn xuất từ quá trình giáng hóa Hemoglobin, là hợp chất chính tạo nên màu vàng tự nhiên của nước tiểu.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_13",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Lỗ huyệt / Ổ nhớp (Cloaca)",
+    "back": "Đoạn xoang tận cùng chung của hệ tiêu hóa, tiết niệu và sinh dục ở gia cầm và bò sát.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_14",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Bệnh sỏi niệu (Urolithiasis)",
+    "back": "Tình trạng hình thành các khối khoáng vô cơ kết tinh (struvite, calcium oxalate, urate...) trong đường tiết niệu.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_15",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Chọc hút bàng quang (Cystocentesis)",
+    "back": "Kỹ thuật dùng kim tiêm vô trùng đâm xuyên qua thành bụng vào trực tiếp lòng bàng quang để thu thập mẫu nước tiểu tinh khiết phục vụ cấy khuẩn.",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_16",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Loài vật nuôi (Thể tích nước tiểu (ml/kg thể trọng/ngày))",
+    "back": "Tỷ trọng nước tiểu ($USG$)",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_17",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Chó (Canine) (20 – 40)",
+    "back": "1.015 – 1.045",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_18",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Mèo (Feline) (10 – 20)",
+    "back": "1.020 – 1.060",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_19",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Bò (Bovine) (15 – 30 (Tổng 10 – 25 L/ngày))",
+    "back": "1.025 – 1.045",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_20",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Ngựa (Equine) (10 – 20 (Tổng 5 – 15 L/ngày))",
+    "back": "1.020 – 1.050",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_21",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Heo (Porcine) (20 – 40 (Tổng 2 – 6 L/ngày))",
+    "back": "1.010 – 1.030",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_1_22",
+    "sessionId": 1,
+    "badge": "Hệ Tiết Niệu",
+    "front": "Gia cầm (Gà, Vịt) (Rất ít, sệt dạng bán lỏng)",
+    "back": "Không đo dạng lỏng",
+    "category": "Hệ Tiết Niệu"
+  },
+  {
+    "id": "fc_2_1",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Whole Blood (Whole Blood)",
+    "back": "Máu toàn phần gồm tế bào máu và huyết tương lưu thông trong lòng mạch.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_2",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Plasma (Blood Plasma)",
+    "back": "Huyết tương: dịch lỏng thu được sau ly tâm máu có chất chống đông, chứa Fibrinogen.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_3",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Serum (Blood Serum)",
+    "back": "Huyết thanh: dịch trong suốt tách ra sau khi máu đông tự nhiên, đã mất Fibrinogen và các yếu tố đông máu II, V, VIII.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_4",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Buffy coat (Buffy coat)",
+    "back": "Lớp tế bào trắng mỏng nằm giữa huyết tương và hồng cầu sau ly tâm, gồm Bạch cầu và Tiểu cầu.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_5",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "RBC / Erythrocyte (Red Blood Cell)",
+    "back": "Hồng cầu: tế bào vận chuyển khí $O_2$ và $CO_2$ nhờ sắc tố Hemoglobin.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_6",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "WBC / Leukocyte (White Blood Cell)",
+    "back": "Bạch cầu: tế bào miễn dịch bảo vệ cơ thể chống nhiễm trùng và dị vật.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_7",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "PLT / Thrombocyte (Platelet / Thrombocyte)",
+    "back": "Tiểu cầu: mảnh bào tương (thú có vú) hoặc tế bào có nhân (gia cầm) tham gia cầm máu.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_8",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "PCV / HCT (Packed Cell Volume / Hematocrit)",
+    "back": "Tỷ khối hồng cầu: phần trăm thể tích hồng cầu chiếm trong tổng thể tích máu toàn phần.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_9",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Hb / Hgb (Hemoglobin)",
+    "back": "Huyết sắc tố: protein màu chứa nhân Heme liên kết ion $Fe^{2+}$ vận chuyển khí.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_10",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "MCV (Mean Corpuscular Volume)",
+    "back": "Thể tích trung bình của một hồng cầu ($fL = 10^{-15} L$). Dùng phân loại thiếu máu đẳng/hồng cầu to/nhỏ.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_11",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "MCH (Mean Corpuscular Hemoglobin)",
+    "back": "Lượng huyết sắc tố trung bình trong một hồng cầu ($pg = 10^{-12} g$).",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_12",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+    "back": "Nồng độ huyết sắc tố trung bình trong một thể tích hồng cầu lắng ($g/dL$ hoặc $g/L$). Phân loại thiếu máu sắc tố bình thường/nhược sắc.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_13",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "BUN (Blood Urea Nitrogen)",
+    "back": "Lượng nitơ có nguồn gốc từ urea trong máu, chỉ số sinh hóa đánh giá chức năng thận và dị hóa đạm.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_14",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Creatinine (Serum Creatinine)",
+    "back": "Sản phẩm thoái hóa của Creatine phosphate ở cơ, bài tiết hoàn toàn qua lọc cầu thận, chỉ số vàng đo GFR.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_15",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "HbA1c (Glycated Hemoglobin)",
+    "back": "Huyết sắc tố bị gắn kết glucose không thuận nghịch, phản ánh mức đường huyết trung bình trong 2–3 tháng trước đó.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_16",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "DEA (Dog Erythrocyte Antigen)",
+    "back": "Hệ kháng nguyên màng hồng cầu loài chó (DEA 1.1, 1.2, 3, 4, 5, 7, v.v.).",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_17",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "NI (Neonatal Isoerythrolysis)",
+    "back": "Hội chứng vàng da tán huyết ở con sơ sinh do bất đồng nhóm máu giữa mẹ và con qua sữa đầu.",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_18",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Chỉ số huyết học (Đơn vị)",
+    "back": "Chó (*Canine*)",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_19",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "RBC ($10^{12}/L$)",
+    "back": "5,5 – 8,5",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_20",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Hb ($g/dL$)",
+    "back": "12,0 – 18,0",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_21",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "PCV / HCT ($\\%$)",
+    "back": "37 – 55",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_22",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "WBC ($10^9/L$)",
+    "back": "6,0 – 17,0",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_23",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Tiểu cầu (PLT) ($10^9/L$)",
+    "back": "200 – 500",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_24",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Glucose ($mg/dL$)",
+    "back": "75 – 120",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_25",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "BUN / Urea ($mg/dL$)",
+    "back": "7 – 27",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_2_26",
+    "sessionId": 2,
+    "badge": "Hệ Tuần Hoàn",
+    "front": "Creatinine ($mg/dL$)",
+    "back": "0,5 – 1,5",
+    "category": "Hệ Tuần Hoàn"
+  },
+  {
+    "id": "fc_3_1",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Hoành cách mô (Diaphragm)",
+    "back": "Cơ vân hình vòm ngăn cách xoang ngực và xoang bụng, có tính đàn hồi rất cao nhờ trung tâm gân. Co kéo làm tăng chiều dọc xoang ngực khi hít vào. Dân gian gọi là \"trảng dừng\" hay \"mặt dừng\".",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_2",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Cơ liên sườn ngoài (External intercostal muscles)",
+    "back": "Cơ bám giữa các xương sườn, khi co sẽ kéo các xương sườn ra phía trước và nâng lên trên, làm tăng đường kính ngang lồng ngực.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_3",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Cơ liên sườn trong (Internal intercostal muscles)",
+    "back": "Cơ nằm sâu dưới cơ liên sườn ngoài, khi co làm hạ lồng ngực và kéo xương sườn về phía sau, thu hẹp thể tích ngực.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_4",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Khí áp phế nang ($P_{alv}$ (Alveolar pressure))",
+    "back": "Áp suất không khí bên trong phế nang. Hít vào: $P_{alv} < P_{atm}$; Thở ra: $P_{alv} > P_{atm}$; Nghỉ: $P_{alv} = P_{atm}$.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_5",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Áp suất âm khoang màng phổi ($P_{ip}$ (Intrapleural pressure))",
+    "back": "Áp suất trong khoang giữa lá thành và lá tạng màng phổi, luôn nhỏ hơn áp suất khí quyển (-2 đến -6 mmHg) giúp phổi luôn giãn áp sát lồng ngực.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_6",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Thể tích khí lưu thông ($V_T$ (Tidal Volume))",
+    "back": "Lượng khí hít vào hoặc thở ra trong một nhịp thở bình thường, êm dịu lúc nghỉ ngơi.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_7",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Khí cặn ($RV$ (Residual Volume))",
+    "back": "Lượng khí còn tồn lại trong phổi sau khi đã thở ra hết sức tối đa, không bao giờ tống ra hết được.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_8",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Tần số hô hấp ($RR$ (Respiratory Rate))",
+    "back": "Số chu kỳ thở (hít vào - thở ra) hoàn chỉnh được thực hiện trong 1 phút.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_9",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Độ bão hòa oxy trong máu ($SpO_2$)",
+    "back": "Tỷ lệ phần trăm giữa lượng hemoglobin đã gắn với oxy ($HbO_2$) trên tổng lượng hemoglobin có khả năng vận chuyển oxy.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_10",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Phân áp khí ($pO_2$, $pCO_2$)",
+    "back": "Áp suất riêng phần do một chất khí tạo ra trong hỗn hợp khí hoặc thể hòa tan trong dịch thể/máu.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_11",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Oxyhemoglobin ($HbO_2$)",
+    "back": "Phức hợp liên kết lỏng lẻo, thuận nghịch giữa oxy phân tử và nhân Hem ($Fe^{2+}$) của Hemoglobin trong hồng cầu.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_12",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Carbaminohemoglobin ($HbCO_2$)",
+    "back": "Phức hợp liên kết giữa $CO_2$ với nhóm amin ($NH_2$) của phân tử globin trong Hemoglobin.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_13",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Túi khí (Air sacs)",
+    "back": "Hệ thống 9 túi màng mỏng thông với phổi ở gia cầm, không có mao mạch trao đổi khí, giữ vai trò kho lưu trữ và bơm đẩy khí.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_14",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Myoglobin ($Mb$)",
+    "back": "Hemoprotein sắc tố có trong sợi cơ vân và cơ tim, có ái lực gắn $O_2$ cao hơn Hemoglobin, dùng để dự trữ $O_2$ nội bào.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_15",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Nợ oxy (Oxygen debt)",
+    "back": "Lượng oxy cơ thể cần tiêu thụ bổ sung sau khi ngừng vận động nặng để tái oxy hóa acid lactic thành pyruvate/glucose và phục hồi ATP, Phosphocreatine.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_3_16",
+    "sessionId": 3,
+    "badge": "Hô Hấp & Cơ",
+    "front": "Gây tê cạnh sống (Paravertebral nerve block)",
+    "back": "Phương pháp tiêm thuốc tê cục bộ phong bế các nhánh thần kinh sống ngực cuối (T13) và thắt lưng (L1, L2, L3) ngay tại vị trí thoát ra khỏi lỗ liên đốt sống.",
+    "category": "Hô Hấp & Cơ"
+  },
+  {
+    "id": "fc_4_1",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Sexual Maturity (Thành thục về tính)",
+    "back": "Thời điểm cơ quan sinh dục hoàn thiện chức năng, con đực sản sinh tinh trùng có khả năng thụ tinh, con cái rụng trứng và biểu hiện chu kỳ tính đầu tiên.",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_2",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Somatic / Body Maturity (Thành thục về thể vóc)",
+    "back": "Thời điểm cơ thể đạt kích thước, khối lượng và khung xương tối ưu của con trưởng thành (thường đạt 70–80% khối lượng trưởng thành mới đưa vào phối giống).",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_3",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Acrosome Reaction (Phản ứng thể cực)",
+    "back": "Quá trình túi thể cực ở đầu tinh trùng vỡ ra, giải phóng enzyme (*Hyaluronidase*, *Acrosin*) để tiêu giải chất gian bào màng phóng xạ và màng trong suốt của noãn.",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_4",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Corpus Luteum (CL) (Thể vàng)",
+    "back": "Tuyến nội tiết tạm thời hình thành từ bao noãn sau khi vỡ (rụng trứng), chịu trách nhiệm bài tiết *Progesterone* duy trì sự an thai và ức chế chu kỳ tính mới.",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_5",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Luteolysis (Sự thoái hóa thể vàng)",
+    "back": "Quá trình tiêu biến thể vàng do tác động của *Prostaglandin F2alpha (PGF2α)* từ nội mạc tử cung không có thai bài tiết, làm tụt giảm Progesterone và khởi động chu kỳ mới.",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_6",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Pseudopregnancy (Hiện tượng mang thai giả)",
+    "back": "Rối loạn sinh lý/nội tiết khi thể vàng tồn tại dai dẳng dù không có thụ thai, nồng độ Progesterone và Prolactin cao gây triệu chứng lâm sàng như mang thai thật.",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_7",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Milk Ejection / Let-down Reflex (Phản xạ thải sữa / Xuống sữa)",
+    "back": "Phản xạ thần kinh - thể dịch qua cung phản xạ tủy sống lên vùng dưới đồi giải phóng *Oxytocin*, làm co thắt tế bào cơ-biểu mô quanh nang tuyến vú để ép sữa vào bể sữa.",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_8",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Colostrum (Sữa đầu)",
+    "back": "Chất tiết đầu tiên của tuyến vú trong 24–72 giờ sau sinh, rất giàu Immunoglobulin (đặc biệt là IgG), protein, vitamin A, E và các chất ức chế trypsin.",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_9",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Gut Closure (Hiện tượng đóng ruột non)",
+    "back": "Cơ chế tế bào ruột non của gia súc sơ sinh ngừng khả năng hấp thu nguyên vẹn đại phân tử kháng thể qua hiện tượng ẩm bào (*pinocytosis*), thường hoàn tất sau 24–36 giờ.",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_10",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Sperm Storage Tubules (SSTs) (Tuyến lưu trữ tinh trùng)",
+    "back": "Cấu trúc tuyến chuyên biệt nằm ở ngã ba tử cung - âm đạo và loa kèn của ống dẫn trứng gia cầm, có khả năng nuôi dưỡng tinh trùng sống sót và thụ tinh từ 7 đến 21 ngày.",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_11",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Infundibulum (Loa kèn (Phễu dẫn trứng))",
+    "back": "Phần đầu tiên của ống dẫn trứng gia cầm, làm nhiệm vụ đón nhận lòng đỏ rụng từ buồng trứng và là vị trí DUY NHẤT diễn ra sự thụ tinh (thời gian lưu giữ: 15–30 phút).",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_12",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Magnum (Đoạn tiết lòng trắng)",
+    "back": "Đoạn dài nhất của ống dẫn trứng gia cầm, biểu mô trụ có lông rung tiết ra albumin (lòng trắng đặc và lỏng) bao quanh lòng đỏ (thời gian lưu giữ: khoảng 3 giờ).",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_13",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Isthmus (Đoạn eo)",
+    "back": "Đoạn ngắn thắt lại của ống dẫn trứng gia cầm, bài tiết protein tạo thành 2 lớp màng vỏ lụa trong và ngoài, bổ sung nước và chất khoáng (thời gian lưu giữ: 1–1.5 giờ).",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_14",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Shell Gland (Uterus) (Tuyến vỏ (Tử cung gia cầm))",
+    "back": "Đoạn phình to, nơi diễn ra quá trình tạo vỏ cứng bằng lắng đọng Canxi cacbonat ($CaCO_3$), sắc tố vỏ trứng và màng bảo vệ ngoài cùng (*cuticle*) (thời gian lưu giữ: 18–21 giờ).",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_15",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Loài gia súc / Gia cầm (Tuổi thành thục tính (tháng))",
+    "back": "Tuổi phối giống lần đầu (tháng)",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_16",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Bò (*Bos taurus/indicus*) (10 – 14)",
+    "back": "16 – 20",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_17",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Trâu (*Bubalus bubalis*) (18 – 24)",
+    "back": "30 – 36",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_18",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Heo (*Sus scrofa domesticus*) (5 – 7)",
+    "back": "8 – 9",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_19",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Dê (*Capra hircus*) (5 – 7)",
+    "back": "10 – 12",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_20",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Cừu (*Ovis aries*) (6 – 8)",
+    "back": "12 – 14",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_21",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Ngựa (*Equus caballus*) (12 – 18)",
+    "back": "30 – 36",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_22",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Chó (*Canis familiaris*) (6 – 10)",
+    "back": "12 – 18",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_23",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Mèo (*Felis catus*) (5 – 9)",
+    "back": "10 – 12",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_24",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Gà (*Gallus gallus*) (4.5 – 5.5)",
+    "back": "5.5 – 6.0",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_4_25",
+    "sessionId": 4,
+    "badge": "Sinh Sản & Tiết Sữa",
+    "front": "Vịt (*Anas platyrhynchos*) (5.0 – 6.0)",
+    "back": "6.0 – 7.0",
+    "category": "Sinh Sản & Tiết Sữa"
+  },
+  {
+    "id": "fc_5_1",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "Thuật Ngữ / Ký Hiệu (Tên Tiếng Anh / Tên Khoa Học)",
+    "back": "Bản Chất Hóa Học / Nguồn Gốc Tuyến",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_2",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "GH (STH) (Growth Hormone (Somatotropic Hormone))",
+    "back": "Protein (191 acid amin) / Tế bào ưa acid thùy trước tuyến yên",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_3",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "TSH (Thyroid-Stimulating Hormone)",
+    "back": "Glycoprotein / Tế bào ưa base thùy trước tuyến yên",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_4",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "ACTH (Adrenocorticotropic Hormone)",
+    "back": "Polypeptide (39 acid amin) / Tế bào ưa base thùy trước tuyến yên",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_5",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "FSH (Follicle-Stimulating Hormone)",
+    "back": "Glycoprotein / Thùy trước tuyến yên",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_6",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "LH (Luteinizing Hormone)",
+    "back": "Glycoprotein / Thùy trước tuyến yên",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_7",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "PRL (LTH) (Prolactin (Luteotropic Hormone))",
+    "back": "Protein / Thùy trước tuyến yên",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_8",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "Oxytocin (Oxytocin)",
+    "back": "Nonapeptide / Vùng dưới đồi (tích trữ tại thùy sau tuyến yên)",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_9",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "ADH (Antidiuretic Hormone (Vasopressin))",
+    "back": "Nonapeptide / Vùng dưới đồi (tích trữ tại thùy sau tuyến yên)",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_10",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "$T_3$ / $T_4$ (Triiodothyronine / Thyroxine)",
+    "back": "Dẫn xuất Tyrosine gắn Iod / Tế bào nang tuyến giáp",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_11",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "PTH (Parathyroid Hormone)",
+    "back": "Polypeptide (84 acid amin) / Tuyến cận giáp",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_12",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "Calcitonin (Calcitonin)",
+    "back": "Polypeptide (32 acid amin) / Tế bào cận nang (C cell) tuyến giáp",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_13",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "Aldosterone (Aldosterone)",
+    "back": "Steroid (Mineralocorticoid) / Lớp cầu vỏ thượng thận",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_14",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "Cortisol (Hydrocortisone)",
+    "back": "Steroid (Glucocorticoid) / Lớp bó vỏ thượng thận",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_15",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "Adrenaline (Epinephrine)",
+    "back": "Catecholamine / Tủy thượng thận",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_16",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "Insulin (Insulin)",
+    "back": "Polypeptide gồm 2 chuỗi A-B nối cầu Disulfide / Tế bào $\\beta$ tụy",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_17",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "Glucagon (Glucagon)",
+    "back": "Polypeptide (29 acid amin) / Tế bào $\\alpha$ tụy",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_18",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "eCG (PMSG) (Equine Chorionic Gonadotropin)",
+    "back": "Glycoprotein / Cốc nội mạc tử cung ngựa mang thai",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_5_19",
+    "sessionId": 5,
+    "badge": "Nội Tiết Học",
+    "front": "Melatonin (N-acetyl-5-methoxytryptamine)",
+    "back": "Dẫn xuất Tryptophan / Tuyến tùng (Epiphysis)",
+    "category": "Nội Tiết Học"
+  },
+  {
+    "id": "fc_6_1",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Ruminant (Động vật nhai lại)",
+    "back": "Động vật có vú guốc chẵn có dạ dày 4 ngăn, tiêu hóa xenluloza nhờ lên men vi sinh vật cộng sinh và có tập tính nhai lại.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_2",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Rumen (Dạ cỏ)",
+    "back": "Túi tiêu hóa đầu tiên và lớn nhất, hoạt động như một buồng lên men kỵ khí khổng lồ chứa hàng tỷ vi sinh vật.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_3",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Reticulum (Dạ tổ ong)",
+    "back": "Ngăn thứ hai, niêm mạc hình ô lục giác như tổ ong, điều phối co bóp tống thức ăn lên miệng nhai lại hoặc qua dạ lá sách.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_4",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Omasum (Dạ lá sách)",
+    "back": "Ngăn thứ ba, niêm mạc nhiều nếp gấp xếp lớp như trang sách; chức năng nghiền ép cơ học, tái hấp thu nước, $HCO_3^-$ và VFA.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_5",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Abomasum (Dạ múi khế)",
+    "back": "Dạ dày tuyến thực sự của động vật nhai lại, tiết $HCl$ và enzyme pepsinogen, tiêu hóa hóa học dịch dưỡng chất và vi sinh vật.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_6",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Rumination (Hiện tượng nhai lại)",
+    "back": "Phản xạ phức hợp đưa khối thức ăn thô từ dạ cỏ/dạ tổ ong lên miệng để nhai nghiền lần hai và tẩm nhuần thêm nước bọt.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_7",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Eructation (Phản xạ ợ hơi)",
+    "back": "Quá trình tống thoát định kỳ các khí sinh ra từ quá trình lên men yếm khí ($CO_2, CH_4$) qua thực quản ra ngoài khí quản/miệng.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_8",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Volatile Fatty Acids (VFA) (Acid béo bay hơi)",
+    "back": "Sản phẩm lên men carbohydrate của vi sinh vật dạ cỏ; nguồn năng lượng chính cung cấp cho vật chủ (Acetate, Propionate, Butyrate).",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_9",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Acetate (Acetic acid) (Acid acetic ($CH_3COOH$))",
+    "back": "VFA 2-carbon sinh ra từ vi khuẩn phân giải xơ; tiền chất chính để tổng hợp mỡ cơ thể và chất béo trong sữa (mỡ sữa).",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_10",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Propionate (Propionic acid) (Acid propionic ($CH_3CH_2COOH$))",
+    "back": "VFA 3-carbon sinh ra từ vi khuẩn phân giải tinh bột/đường; qua tĩnh mạch cửa về gan chuyển hóa thành Glucose qua tân tạo đường.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_11",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Butyrate (Butyric acid) (Acid butyric ($CH_3(CH_2)_2COOH$))",
+    "back": "VFA 4-carbon; được tế bào biểu mô vách dạ cỏ chuyển hóa thành thể Ketone ($\\beta$-hydroxybutyrate) cung cấp năng lượng cho mô.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_12",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Microbial Crude Protein (MCP) (Protein thô vi sinh vật)",
+    "back": "Sinh khối protein của vi khuẩn và động vật nguyên sinh trôi xuống dạ múi khế và ruột non bị tiêu hóa thành acid amin cho vật chủ.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_13",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Rumen Degradable Protein (RDP) (Protein phân giải tại dạ cỏ)",
+    "back": "Phần protein khẩu phần bị vi sinh vật dạ cỏ phân cắt thành peptide, acid amin và $NH_3$ để tái tổng hợp protein vi sinh vật.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_14",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Rumen Undegradable Protein (RUP) (Protein thoát qua dạ cỏ (Bypass protein))",
+    "back": "Phần protein tự nhiên trong khẩu phần không bị vi sinh vật phân giải tại dạ cỏ, đi thẳng xuống dạ múi khế và ruột non tiêu hóa.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_15",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Non-Protein Nitrogen (NPN) (Đạm phi protein)",
+    "back": "Các hợp chất chứa nitơ nhưng không phải chuỗi polypeptide (ví dụ: Urea, Biuret, Amoniac); được vi sinh vật dùng để tạo MCP.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_16",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Methanogenesis (Sinh khí mê-tan)",
+    "back": "Quá trình khử carbon dioxide bằng hydro sinh học do cổ khuẩn *Archaea* thực hiện, tạo thành khí mê-tan ($CH_4$).",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_17",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Methanogens / Archaea (Cổ khuẩn sinh mê-tan)",
+    "back": "Nhóm vi sinh vật cổ kỵ khí bắt buộc sử dụng $H_2$ và $CO_2$ hoặc acid formic để tạo khí mê-tan (*Methanobrevibacter ruminantium*...).",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_18",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Bypass Fat / Protected Fat (Mỡ bảo vệ dạ cỏ)",
+    "back": "Chất béo được xử lý hóa lý (xà phòng canxi, hydro hóa, bọc vi nang) không tan ở pH dạ cỏ nhưng tan và tiêu hóa ở pH ruột non.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_19",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Negative Energy Balance (NEB) (Cân bằng năng lượng âm)",
+    "back": "Trạng thái sinh lý khi năng lượng ăn vào ít hơn nhu cầu duy trì và sản xuất sữa (thường gặp ở 3-8 tuần đầu sau đẻ).",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_20",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Subacute Ruminal Acidosis (SARA) (Toan dạ cỏ bán cấp)",
+    "back": "Rối loạn chuyển hóa do tích tụ VFA và acid lactic tạm thời khi ăn quá nhiều carbohydrate dễ lên men, làm giảm năng lực đệm.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_21",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Dry Matter Intake (DMI) (Lượng thu nhận vật chất khô)",
+    "back": "Khối lượng thức ăn con vật ăn vào sau khi đã loại trừ hoàn toàn độ ẩm nước tự do.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_6_22",
+    "sessionId": 6,
+    "badge": "Dạ Dày 4 Túi",
+    "front": "Total Mixed Ration (TMR) (Khẩu phần phối trộn hoàn toàn)",
+    "back": "Phương pháp cho ăn trộn đều thức ăn thô xanh, thức ăn ủ chua, thức ăn tinh và khoáng vi lượng thành một hỗn hợp đồng nhất.",
+    "category": "Dạ Dày 4 Túi"
+  },
+  {
+    "id": "fc_7_1",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "VFA (*Volatile Fatty Acids*)",
+    "back": "Acid béo bay hơi (Acetate, Propionate, Butyrate) tạo ra do vi sinh vật lên men carbohydrate trong dạ cỏ; nguồn năng lượng chính (70-80%) của động vật nhai lại.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_2",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "GE (*Gross Energy*)",
+    "back": "Năng lượng thô/tổng số giải phóng khi đốt cháy hoàn toàn một đơn vị khối lượng thức ăn trong bom nhiệt lượng kế.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_3",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "DE (*Digestible Energy*)",
+    "back": "Năng lượng tiêu hóa: $DE = GE - \\text{Năng lượng phân (FE)}$.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_4",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "ME (*Metabolizable Energy*)",
+    "back": "Năng lượng trao đổi: $ME = DE - \\text{Năng lượng nước tiểu (UE)} - \\text{Năng lượng khí Methane (CH}_4\\text{)}$.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_5",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "NE (*Net Energy*)",
+    "back": "Năng lượng thuần: $NE = ME - \\text{Nhiệt gia tăng (HI)}$. Năng lượng thực sự dùng cho duy trì ($NE_m$) và sản xuất ($NE_p$: sữa, thịt, thai).",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_6",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "$k_m, k_l, k_g, k_p$ (*Efficiencies of ME utilization*)",
+    "back": "Hiệu suất chuyển đổi từ ME sang NE cho các mục đích: Duy trì ($k_m$), Tiết sữa ($k_l$), Tăng trọng ($k_g$), Mang thai ($k_p$).",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_7",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "RDP (*Rumen Degradable Protein*)",
+    "back": "Protein thức ăn bị vi sinh vật dạ cỏ phân giải thành peptide, acid amin và $NH_3$.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_8",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "RUP (*Rumen Undegradable Protein*)",
+    "back": "Protein thoát qua dạ cỏ (Bypass protein), không bị phân giải ở dạ cỏ, đi thẳng xuống múi khế và ruột non tiêu hóa.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_9",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "MCP (*Microbial Crude Protein*)",
+    "back": "Protein vi sinh vật dạ cỏ, tổng hợp từ $NH_3$ và khung carbon; trôi xuống ruột non cung cấp acid amin chất lượng cao cho vật chủ.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_10",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "MP (*Metabolizable Protein*)",
+    "back": "Protein trao đổi: lượng acid amin thực tế được hấp thu tại ruột non, gồm acid amin từ MCP và RUP tiêu hóa được.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_11",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "NPN (*Non-Protein Nitrogen*)",
+    "back": "Hợp chất nitơ phi protein (như Urea, muối amoni); vi sinh vật sử dụng để tổng hợp protein tế bào vi sinh vật.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_12",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "SARA (*Subacute Ruminal Acidosis*)",
+    "back": "Toan hóa dạ cỏ bán cấp; tình trạng tích lũy acid hữu cơ làm pH dạ cỏ giảm kéo dài trong ngày.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_13",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "PTH (*Parathyroid Hormone*)",
+    "back": "Tuyến cận giáp tiết ra khi Ca máu giảm; kích thích tiêu xương giải phóng Ca, tăng tái hấp thu Ca ở ống thận, hoạt hóa enzyme $1\\alpha$-hydroxylase tại thận.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_14",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "Calcitonin (*Calcitonin*)",
+    "back": "Tế bào C (tuyến giáp) tiết ra khi Ca máu tăng; ức chế hủy cốt bào, giảm tái hấp thu Ca ở thận, đưa Ca vào xương dự trữ.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_15",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "Calcitriol (*$1,25-(OH)_2-D_3$*)",
+    "back": "Dạng hoạt tính sinh học tối cao của Vitamin D, tạo ra tại thận nhờ kích thích của PTH; thúc đẩy tổng hợp protein Calbindin-D ở niêm mạc ruột.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_16",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "Milk Fever (*Parturient Paresis*)",
+    "back": "Bệnh sốt sữa (bại liệt sau sinh) do hạ canxi huyết cấp tính trong vòng 24 - 48 giờ sau sinh ở bò sữa cao sản.",
+    "category": "Chuyển Hóa Học"
+  },
+  {
+    "id": "fc_7_17",
+    "sessionId": 7,
+    "badge": "Chuyển Hóa Học",
+    "front": "DCAD (*Dietary Cation-Anion Difference*)",
+    "back": "Hiệu số Cation - Anion trong khẩu phần: $[(Na^+ + K^+) - (Cl^- + S^{2-})]$ tính bằng mEq/kg DM.",
+    "category": "Chuyển Hóa Học"
+  }
+]
