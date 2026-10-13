@@ -5,6 +5,8 @@ import { useSearchParams } from "next/navigation";
 import quizzesData from "@/data/quizzes.json";
 import { QuizQuestion, UserProgress } from "@/types";
 import { recordExamResult, getProgress } from "@/lib/storage";
+import { useAuth } from "@/lib/auth-context";
+import { syncCloudExamAttempt } from "@/lib/supabase/sync";
 import { KaTeXMath } from "@/components/KaTeXMath";
 import confetti from "canvas-confetti";
 import {
@@ -43,6 +45,7 @@ function ExamContent() {
   const [aiGenerating, setAiGenerating] = useState<boolean>(false);
   const [aiAnalysisMap, setAiAnalysisMap] = useState<Record<number, string>>({});
   const [aiAnalyzingIndex, setAiAnalyzingIndex] = useState<number | null>(null);
+  const { user, refreshProfile } = useAuth();
 
   // Selected questions for this exam
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
@@ -176,9 +179,16 @@ Hãy giải thích ngắn gọn, thân thiện (xưng Bác sĩ Dr. Paw):
       }
     });
 
+    const passed = correctCount >= Math.round(questions.length * 0.7);
     recordExamResult(correctCount, questions.length);
 
-    if (correctCount >= Math.round(questions.length * 0.7)) {
+    if (user) {
+      syncCloudExamAttempt(user.id, correctCount, questions.length, passed).then(() => {
+        refreshProfile();
+      });
+    }
+
+    if (passed) {
       try {
         confetti({
           particleCount: 120,

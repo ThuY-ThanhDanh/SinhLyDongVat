@@ -10,6 +10,9 @@ import { Lesson } from "@/types";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { MascotBanner } from "@/components/MascotBanner";
 import { markLessonComplete, getProgress } from "@/lib/storage";
+import { useAuth } from "@/lib/auth-context";
+import { syncCloudLessonComplete } from "@/lib/supabase/sync";
+import { PersonalNotesBox } from "@/components/notes/PersonalNotesBox";
 import confetti from "canvas-confetti";
 import {
   ArrowLeft,
@@ -35,6 +38,7 @@ export default function LessonDetailPage() {
 
   const [activeSection, setActiveSection] = useState<string>("all");
   const [isCompleted, setIsCompleted] = useState<boolean>(false);
+  const { user, refreshProfile } = useAuth();
 
   useEffect(() => {
     const progress = getProgress();
@@ -44,6 +48,11 @@ export default function LessonDetailPage() {
   const handleComplete = () => {
     markLessonComplete(lesson.id);
     setIsCompleted(true);
+    if (user) {
+      syncCloudLessonComplete(user.id, lesson.id).then(() => {
+        refreshProfile();
+      });
+    }
     try {
       confetti({
         particleCount: 100,
@@ -226,6 +235,9 @@ export default function LessonDetailPage() {
           </section>
         )}
       </div>
+
+      {/* Personal Notes Box for this Lesson */}
+      <PersonalNotesBox lessonId={lesson.id} />
 
       {/* Bottom Next/Prev Bar */}
       <div className="pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">

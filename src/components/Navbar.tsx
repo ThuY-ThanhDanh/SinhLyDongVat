@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { getProgress } from "@/lib/storage";
 import { UserProgress } from "@/types";
 import { BookOpen, Layers, Award, AlertTriangle, GitCompare, Menu, X, Flame, Sparkles } from "lucide-react";
+import { UserMenu } from "@/components/auth/UserMenu";
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -94,14 +95,19 @@ export const Navbar: React.FC = () => {
           </div>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden p-2 rounded-xl text-slate-600 hover:bg-slate-100 focus:outline-none"
-          aria-label="Toggle Menu"
-        >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+        {/* User Auth Menu & Mobile Button */}
+        <div className="flex items-center gap-2">
+          <UserMenu />
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden p-2 rounded-xl text-slate-600 hover:bg-slate-100 focus:outline-none"
+            aria-label="Toggle Menu"
+          >
+            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Drawer */}

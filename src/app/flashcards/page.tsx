@@ -5,6 +5,8 @@ import { useSearchParams } from "next/navigation";
 import flashcardsData from "@/data/flashcards.json";
 import { Flashcard, UserProgress } from "@/types";
 import { getProgress, toggleMasteredFlashcard, addXP } from "@/lib/storage";
+import { useAuth } from "@/lib/auth-context";
+import { syncCloudFlashcard } from "@/lib/supabase/sync";
 import { KaTeXMath } from "@/components/KaTeXMath";
 import confetti from "canvas-confetti";
 import {
@@ -30,6 +32,7 @@ function FlashcardsContent() {
   const [viewMode, setViewMode] = useState<"card" | "grid">("card");
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [progress, setProgress] = useState<UserProgress | null>(null);
+  const { user, refreshProfile } = useAuth();
 
   // Cards currently in view
   const [cardIndex, setCardIndex] = useState<number>(0);
@@ -94,6 +97,11 @@ function FlashcardsContent() {
     if (!currentCard) return;
     const { progress: updated, isMastered } = toggleMasteredFlashcard(currentCard.id);
     setProgress(updated);
+    if (user) {
+      syncCloudFlashcard(user.id, currentCard.id, isMastered).then(() => {
+        refreshProfile();
+      });
+    }
     if (isMastered) {
       try {
         confetti({
